@@ -10,6 +10,81 @@
     margin: 0 auto;
 }
 
+.skillText {
+    margin: 0;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    animation: fadeIn ease-in-out 2s forwards;
+}
+
+.circle-wrap {
+    float: left;
+    margin: 2rem;
+    width: 200px;
+    height: 200px;
+    background: #ddc7b9;
+    border-radius: 50%;
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+    clip: rect(0px, 200px, 200px, 100px);
+}
+
+.circle-wrap .circle .mask .fill {
+    clip: rect(0px, 100px, 200px, 0px);
+    background-color: #002542;
+}
+
+.circle-wrap.thirdPercentage .circle .mask.full,
+.circle-wrap.thirdPercentage .circle .fill {
+    animation: thirdPercentage ease-in-out 1.5s forwards;
+}
+
+.circle-wrap .inside-circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #002542;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+}
+
+@keyframes thirdPercentage {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
 .skillTitle {
     font-size: 3rem;
     font-weight: 600;
@@ -37,6 +112,22 @@
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
     background: rgb(50, 50, 50);
+}
+
+.backgroundRed {
+
+}
+
+.backgroundGreen {
+
+}
+
+.backgroundPurple {
+
+}
+
+.backgroundBlue {
+
 }
 
 .skillBarImg {

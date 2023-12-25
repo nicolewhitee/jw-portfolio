@@ -38,7 +38,6 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-
             <span className="skillTitle">Experience</span>
             <div className="skillBars">
                 <div className="skillBar">

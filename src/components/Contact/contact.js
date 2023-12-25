@@ -1,6 +1,7 @@
 import './contact.css';
 import twitterIcon from '../../assets/twitter.png';
-import linkedInIcon from '../../assets/linkedin.png'
+import linkedInIcon from '../../assets/linkedin.png';
+import githubIcon from '../../assets/github.png';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -26,14 +27,19 @@ const Contact = () => {
                 <h1 className="contactPageTitle">Contact Me</h1>
                 <span className="contactDesc">Please fill out the form below.</span>
                 <form className="contactForm" ref={form} onSubmit={sendEmail}>
-                    <input type="text" className="name" placeholder='Your name' name='from_name' />
+                    <input type="text" className="name" placeholder='Your Name' name='from_name' />
                     <input type="text" className="email" placeholder='Your Email' name='from_email' />
                     <textarea name="message" placeholder='Your Message' rows={5} className='msg' ></textarea>
                     <button type="submit" value="Send" className='submitBtn'>Submit</button>
                     <div className="links">
-                        <img src={twitterIcon} alt="Twitter" className="link" />
+                        <a href="https://www.linkedin.com/in/wjeffwhite/">
+                            <img src={twitterIcon} alt="Twitter" className="link" />
+                        </a>
                         <a href="https://www.linkedin.com/in/wjeffwhite/">
                             <img src={linkedInIcon} alt="LinkedIn" className="link" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/wjeffwhite/">
+                            <img src={githubIcon} alt="GitHub" className="link" />
                         </a>
                     </div>
                 </form>
