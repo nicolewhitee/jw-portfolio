@@ -7,22 +7,27 @@ import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const [emailMessageStatus, setEmailStatusMessage] = useState("");
+    const [emailFormatStatus, setEmailFormatStatus] = useState("");
     const form = useRef();
 
     const sendEmail = (e) => {
-        e.preventDefault();
+        const emailInput = document.getElementById('email');
 
-        emailjs.sendForm('service_zf7ce9f', 'template_f28vzpq', form.current, 'LxgKr7pP3nRMDurse')
-            .then((result) => {
-                console.log(result.text);
-                e.target.reset();
-                setEmailStatusMessage("Your message has been sent.");
-            }, (error) => {
-                console.log(error.text);
-                setEmailStatusMessage("Your message is not able to be sent at this time. Please try again later.");
-            });
+        if (emailInput.validity.valid) {
+            e.preventDefault();
 
-        return ;
+            emailjs.sendForm('service_zf7ce9f', 'template_f28vzpq', form.current, 'LxgKr7pP3nRMDurse')
+                .then((result) => {
+                    console.log(result.text);
+                    e.target.reset();
+                    setEmailStatusMessage("Your message has been sent.");
+                }, (error) => {
+                    console.log(error.text);
+                    setEmailStatusMessage("Your message is not able to be sent at this time. Please try again later.");
+                });
+        } else {
+            setEmailFormatStatus("Please enter a valid email.");
+        }
     };
     
     return (
@@ -32,7 +37,8 @@ const Contact = () => {
                 <span className="contactDesc">Please fill out the form below.</span>
                 <form className="contactForm" ref={form} onSubmit={sendEmail}>
                     <input type="text" className="name" placeholder='Your Name' name='from_name' />
-                    <input type="text" className="email" placeholder='Your Email' name='from_email' />
+                    <input type="email" id="email" className="email" placeholder='Your Email' name='from_email' />
+                    <p className="text-warning">{emailFormatStatus}</p>
                     <textarea name="message" placeholder='Your Message' rows={5} className='msg' ></textarea>
                     <p>{emailMessageStatus}</p>
                     <button type="submit" value="Send" className='submitBtn'>Submit</button>
