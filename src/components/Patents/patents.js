@@ -1,27 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './patents.css';
-import Portfolio1 from '../../assets/portfolio-1.png';
-import Portfolio2 from '../../assets/portfolio-2.png';
-import Portfolio3 from '../../assets/portfolio-3.png';
-import Portfolio4 from '../../assets/portfolio-4.png';
-import Portfolio5 from '../../assets/portfolio-5.png';
-import Portfolio6 from '../../assets/portfolio-6.png';
+import patentsArray from './patentsArray.js';
+
+const patentPerRow = 3;
 
 const Patents = () => {
+    const [next, setNext] = useState(patentPerRow);
+
+    const handleMorePatents = () => {
+        setNext(next + patentPerRow);
+    }
     return (
-        <section id='patents'>
-            <h2 className="worksTitle">Patents</h2>
-            <div className="worksImgs">
-                <img src={Portfolio1} alt="" className="worksImg" />
-                <img src={Portfolio2} alt="" className="worksImg" />
-                <img src={Portfolio3} alt="" className="worksImg" />
-                <img src={Portfolio4} alt="" className="worksImg" />
-                <img src={Portfolio5} alt="" className="worksImg" />
-                <img src={Portfolio6} alt="" className="worksImg" />
-            </div>
-            <button className="workBtn">See More</button>
-        </section>
+        <>
+            <section id='patents'>
+                <h2 className="headerTitle">Patents</h2>
+                <div className="container">
+                    <div className="row display-flex g-5">
+                        {patentsArray.slice(0, next).map((patent, index) => {
+                            return (
+                                <div className="col-12" key={index}>
+                                    <div className={patent.cardStyle}>
+                                        <h5>{patent.title}</h5>
+                                        <hr/>
+                                        <h6>{patent.patentId} &#9675; {patent.dateIssued}</h6>
+                                        <p class="patentDescr">{patent.description}</p>
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+
+                    {next < patentsArray?.length && (
+                        <button className="patentBtn" onClick={handleMorePatents}>See More</button>
+                    )}
+                </div>
+            </section>
+        </>
     );
-}
+};
 
 export default Patents;

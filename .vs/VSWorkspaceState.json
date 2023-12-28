@@ -3,8 +3,10 @@
     "",
     "\\src",
     "\\src\\components",
+    "\\src\\components\\Contact",
+    "\\src\\components\\NavBar",
     "\\src\\components\\Skills"
   ],
-  "SelectedNode": "\\src\\components\\Skills\\skills.js",
+  "SelectedNode": "\\src\\components\\NavBar\\navbar.css",
   "PreviewInSolutionExplorer": false
 }

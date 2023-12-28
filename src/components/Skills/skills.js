@@ -11,34 +11,64 @@ import HP from '../../assets/hp-logo.png';
 const Skills = () => {
     return (
         <section id='skills'>
-            <span className="skillTitle">Skills</span>
-            <div className="skillBars">
-                <div className="skillBar">
-                    <img src={ArtificialIntelligence} alt="UIDesign" className="skillBarImg" />
-                    <div className="skillBarText">
-                        <h2>Artificial Intelligence (AI)</h2>
+            <span className="headerTitle">About</span>
+            <div className='container'>
+                <p>
+                    Jeff is the CTO for Edge at Dell Technologies.  Jeff leads the research and development of
+                    Edge technologies for Dell’s product and operations.  His technology focus is on edge application
+                    execution characterization and management, edge scheduling/control algorithm design, edge data
+                    management, AI/ML edge operations, AI/ML drift detection and mitigation, edge networking optimization,
+                    and emerging machine reasoning control for distributed platforms.
+                </p>
+                <br/>
+                <p>
+                    Jeff has also held senior roles at early-stage artificial intelligence/machine reasoning-based robotic
+                    process automation technology provider and served as CTO of Elefante Group, a stratospheric wireless
+                    communications platform.  He also held senior positions at Hewlett Packard Enterprise, Ericsson and
+                    Alcatel-Lucent where he led technology initiatives, solutions development, business development and
+                    services delivery.  Prior Jeff worked at Cingular Wireless and BellSouth in technology and operations
+                    roles.
+                </p>
+            </div>
+            <span className="headerTitle">Skills</span>
+            <div className="container">
+                <div className="row display-flex g-5">
+                    <div className="col-6">
+                        <div className="skillCard">
+                            <img src={ArtificialIntelligence} alt="Artificial Intelligence" className="skillBarImg" />
+                            <div className="skillBarText">
+                                <h2>Artificial Intelligence (AI)</h2>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div className="skillBar">
-                    <img src={EdgeCompute} alt="WebDesign" className="skillBarImg" />
-                    <div className="skillBarText">
-                        <h2>Edge Compute</h2>
+                    <div className="col-6">
+                        <div className="skillCard">
+                            <img src={EdgeCompute} alt="Edge Compute" className="skillBarImg" />
+                            <div className="skillBarText">
+                                <h2>Edge Compute</h2>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div className="skillBar">
-                    <img src={Telecommunications} alt="AppDesign" className="skillBarImg" />
-                    <div className="skillBarText">
-                        <h2>Telecommunications</h2>
+                    <div className="col-6">
+                        <div className="skillCard">
+                            <img src={Telecommunications} alt="Telecommunications" className="skillBarImg" />
+                            <div className="skillBarText">
+                                <h2>Telecommunications</h2>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div className="skillBar">
-                    <img src={AgileMethodology} alt="AppDesign" className="skillBarImg" />
-                    <div className="skillBarText">
-                        <h2>Agile Methodology</h2>
+                    <div className="col-6">
+                        <div className="skillCard">
+                            <img src={AgileMethodology} alt="Agile Methodology" className="skillBarImg" />
+                            <div className="skillBarText">
+                                <h2>Agile Methodology</h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <span className="skillTitle">Experience</span>
+
+            <span className="headerTitle">Experience</span>
             <div className="skillBars">
                 <div className="skillBar">
                     <img src={Dell} alt="AppDesign" className="skillBarImg" />

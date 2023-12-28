@@ -1,8 +1,6 @@
 .navbar {
     background: rgb(30, 30, 30);
     height: 5rem;
-    width: 100vw;
-    max-width: 75rem;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -48,7 +46,7 @@
     margin: 1rem;
 }
 
-.active {
+.activeNavbar {
     color: yellow;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid yellow;
