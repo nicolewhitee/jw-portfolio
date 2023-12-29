@@ -12,7 +12,7 @@ const Presentations = () => {
 
     return (
         <section id='presentations'>
-            <div className="headerTitle">Presentations</div>
+            <div className="headerTitle" aria-level="1" role="heading">Presentations</div>
             <div class="container">
                 <Carousel activeIndex={index} onSelect={handleSelect}>
                     <Carousel.Item>

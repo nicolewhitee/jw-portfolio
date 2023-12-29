@@ -11,7 +11,7 @@ import HP from '../../assets/hp-logo.png';
 const Skills = () => {
     return (
         <section id='skills'>
-            <span className="headerTitle">About</span>
+            <span className="headerTitle" aria-level="1" role="heading">About</span>
             <div className='container'>
                 <p>
                     Jeff is the CTO for Edge at Dell Technologies.  Jeff leads the research and development of
@@ -30,7 +30,8 @@ const Skills = () => {
                     roles.
                 </p>
             </div>
-            <span className="headerTitle">Skills</span>
+
+            <span className="headerTitle" aria-level="1" role="heading">Skills</span>
             <div className="container">
                 <div className="row display-flex g-5">
                     <div className="col-6">
@@ -68,7 +69,7 @@ const Skills = () => {
                 </div>
             </div>
 
-            <span className="headerTitle">Experience</span>
+            <span className="headerTitle" aria-level="1" role="heading">Experience</span>
             <div className="skillBars">
                 <div className="skillBar">
                     <img src={Dell} alt="AppDesign" className="skillBarImg" />

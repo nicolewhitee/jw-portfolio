@@ -33,23 +33,23 @@ const Contact = () => {
     return (
         <div id='contactPage'>
             <div id="contact">
-                <div className="headerTitle">Contact Me</div>
+                <div className="headerTitle" aria-level="1" role="heading">Contact Me</div>
                 <span className="contactDesc">Please fill out the form below.</span>
                 <form className="contactForm" ref={form} onSubmit={sendEmail}>
-                    <input type="text" className="name" placeholder='Your Name' name='from_name' />
-                    <input type="email" id="email" className="email" placeholder='Your Email' name='from_email' />
+                    <input type="text" className="name" label="name" placeholder='Your Name' name='from_name' />
+                    <input type="email" id="email" label="email" className="email" placeholder='Your Email' name='from_email' />
                     <p className="text-warning">{emailFormatStatus}</p>
-                    <textarea name="message" placeholder='Your Message' rows={5} className='msg' ></textarea>
+                    <textarea name="message" label="message" placeholder='Your Message' rows={5} className='msg' ></textarea>
                     <p>{emailMessageStatus}</p>
                     <button type="submit" value="Send" className='submitBtn'>Submit</button>
                     <div className="links">
-                        <a href="https://www.linkedin.com/in/wjeffwhite/" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/wjeffwhite/" target="_blank" rel="noreferrer" aria-label="Linked In">
                             <img src={linkedInIcon} alt="LinkedIn" className="link" />
                         </a>
-                        <a href="https://www.linkedin.com/in/wjeffwhite/" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/wjeffwhite/" target="_blank" rel="noreferrer" aria-label="GitHub">
                             <img src={githubIcon} alt="GitHub" className="link" />
                         </a>
-                        <a href="https://twitter.com/wjeffwhite?s=11&t=WfdM9Plu8tEwtS6ePJjaVQ" target="_blank" rel="noreferrer">
+                        <a href="https://twitter.com/wjeffwhite?s=11&t=WfdM9Plu8tEwtS6ePJjaVQ" target="_blank" rel="noreferrer" aria-label="Twitter">
                             <img src={twitterIcon} alt="Twitter" className="link" />
                         </a>
                     </div>
