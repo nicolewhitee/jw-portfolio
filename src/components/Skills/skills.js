@@ -37,7 +37,7 @@ const Skills = () => {
                         <div className="skillCard">
                             <img src={ArtificialIntelligence} alt="Artificial Intelligence" className="skillBarImg" />
                             <div className="skillBarText">
-                                <h2>Artificial Intelligence (AI)</h2>
+                                <div class="h2">Artificial Intelligence (AI)</div>
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ const Skills = () => {
                         <div className="skillCard">
                             <img src={EdgeCompute} alt="Edge Compute" className="skillBarImg" />
                             <div className="skillBarText">
-                                <h2>Edge Compute</h2>
+                                <div class="h2">Edge Compute</div>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const Skills = () => {
                         <div className="skillCard">
                             <img src={Telecommunications} alt="Telecommunications" className="skillBarImg" />
                             <div className="skillBarText">
-                                <h2>Telecommunications</h2>
+                                <div class="h2">Telecommunications</div>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ const Skills = () => {
                         <div className="skillCard">
                             <img src={AgileMethodology} alt="Agile Methodology" className="skillBarImg" />
                             <div className="skillBarText">
-                                <h2>Agile Methodology</h2>
+                                <div class="h2">Agile Methodology</div>
                             </div>
                         </div>
                     </div>
@@ -73,8 +73,8 @@ const Skills = () => {
                 <div className="skillBar">
                     <img src={Dell} alt="AppDesign" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>Chief Technology Officer - Edge Product & Operations</h2>
-                        <h3>Dell Technologies &#9675; 2022 - Present</h3>
+                        <div class="h2">Chief Technology Officer - Edge Product & Operations</div>
+                        <div class="h3">Dell Technologies &#9675; 2022 - Present</div>
                         <p>
                             Chief Technology Officer for Edge at Dell Technologies CTIO organization.
                             Focus on Edge platform design and application of Edge technology to current
@@ -90,8 +90,8 @@ const Skills = () => {
                 <div className="skillBar">
                     <img src={Dell} alt="AppDesign" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>Industry Chief Technology Officer - Edge Technology and Autonomous Systems</h2>
-                        <h3>Dell Technologies &#9675; 2018 - 2021</h3>
+                        <div class="h2">Industry Chief Technology Officer - Edge Technology and Autonomous Systems</div>
+                        <div class="h3">Dell Technologies &#9675; 2018 - 2021</div>
                         <p>
                             Lead for edge technology development, composable systems technology strategy and
                             autonomous technical ecosystem development for the Global Office of CTO for Dell
@@ -109,8 +109,8 @@ const Skills = () => {
                 <div className="skillBar">
                     <img src={ElefanteGroup} alt="AppDesign" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>Chief Technology Officer</h2>
-                        <h3>Elefante Group &#9675; 2017 - 2018</h3>
+                        <div class="h2">Chief Technology Officer</div>
+                        <div class="h3">Elefante Group &#9675; 2017 - 2018</div>
                         <p>
                             Early stage venture focused on experimental stratospheric communications platform for Broadband
                             and 5G access. Directed technology strategy, spectrum acquisition, system planning and system
@@ -122,8 +122,8 @@ const Skills = () => {
                 <div className="skillBar">
                     <img src={HP} alt="AppDesign" className="skillBarImg" />
                     <div className="skillBarText">
-                        <h2>Head of Communications Media & Entertainment Practice Americas</h2>
-                        <h3>Hewlett Packard Enterprise &#9675; 2015 - 2017</h3>
+                        <div class="h2">Head of Communications Media & Entertainment Practice Americas</div>
+                        <div class="h3">Hewlett Packard Enterprise &#9675; 2015 - 2017</div>
                         <p>
                             Lead HPE efforts in Communications segment in developing innovative solutions addressing transformation
                             to Cloud, SDN and IP based platforms and business models. Set strategy, Design Solutions and Develop
