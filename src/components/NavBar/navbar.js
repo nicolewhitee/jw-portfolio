@@ -9,12 +9,14 @@ const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
     return (
         <nav className="navbar">
-            <img src={logo} alt="Logo" className='logo'/>
+            <a href="/">
+                <img src={logo} alt="Logo" className='logo'/>
+            </a>
             <div className="desktopMenu">
-                <Link activeClass='activeNavbar' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem" role="button">Home</Link>
-                <Link activeClass='activeNavbar' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem" role="button">About</Link>
-                <Link activeClass='activeNavbar' to='patents' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem" role="button">Patents</Link>
-                <Link activeClass='activeNavbar' to='presentations' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem" role="button">Presentations</Link>
+                <Link activeClass='activeNavbar' to='intro' spy={true} offset={-100} duration={200} className="desktopMenuListItem" role="button">Home</Link>
+                <Link activeClass='activeNavbar' to='skills' spy={true} offset={-50} duration={200} className="desktopMenuListItem" role="button">About</Link>
+                <Link activeClass='activeNavbar' to='patents' spy={true} offset={-50} duration={200} className="desktopMenuListItem" role="button">Patents</Link>
+                <Link activeClass='activeNavbar' to='presentations' spy={true} offset={-50} duration={200} className="desktopMenuListItem" role="button">Presentations</Link>
             </div>
             <button className="desktopMenuBtn" onClick={() => {
                 document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
@@ -23,11 +25,11 @@ const Navbar = () => {
             
             <img src={menu} alt="Menu" className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/>
             <div className="navMenu" style={{display: showMenu? 'flex':'none'}}>
-                <Link activeClass='activeNavbar' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={() => setShowMenu(false)} role="button">Home</Link>
-                <Link activeClass='activeNavbar' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)} role="button">About</Link>
-                <Link activeClass='activeNavbar' to='patents' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)} role="button">Patents</Link>
-                <Link activeClass='activeNavbar' to='presentations' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)} role="button">Presentations</Link>
-                <Link activeClass='activeNavbar' to='contact' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={() => setShowMenu(false)} role="button">Contact</Link>
+                <Link activeClass='activeNavbar' to='intro' spy={true} offset={-100} duration={200} className="listItem" onClick={() => setShowMenu(false)} role="button">Home</Link>
+                <Link activeClass='activeNavbar' to='skills' spy={true} offset={-50} duration={200} className="listItem" onClick={() => setShowMenu(false)} role="button">About</Link>
+                <Link activeClass='activeNavbar' to='patents' spy={true} offset={-50} duration={200} className="listItem" onClick={() => setShowMenu(false)} role="button">Patents</Link>
+                <Link activeClass='activeNavbar' to='presentations' spy={true} offset={-50} duration={200} className="listItem" onClick={() => setShowMenu(false)} role="button">Presentations</Link>
+                <Link activeClass='activeNavbar' to='contact' spy={true} offset={-50} duration={200} className="listItem" onClick={() => setShowMenu(false)} role="button">Contact</Link>
             </div>
         </nav>
     )

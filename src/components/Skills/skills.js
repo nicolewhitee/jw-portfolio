@@ -15,14 +15,14 @@ const Skills = () => {
             <div className='container'>
                 <p>
                     Jeff is the CTO for Edge at Dell Technologies.  Jeff leads the research and development of
-                    Edge technologies for Dell’s product and operations.  His technology focus is on edge application
+                    Edge technologies for Dell's product and operations.  His technology focus is on edge application
                     execution characterization and management, edge scheduling/control algorithm design, edge data
                     management, AI/ML edge operations, AI/ML drift detection and mitigation, edge networking optimization,
                     and emerging machine reasoning control for distributed platforms.
                 </p>
                 <br/>
                 <p>
-                    Jeff has also held senior roles at early-stage artificial intelligence/machine reasoning-based robotic
+                    Jeff has also held senior roles at an early-stage artificial intelligence/machine reasoning-based robotic
                     process automation technology provider and served as CTO of Elefante Group, a stratospheric wireless
                     communications platform.  He also held senior positions at Hewlett Packard Enterprise, Ericsson and
                     Alcatel-Lucent where he led technology initiatives, solutions development, business development and
