@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './presentations.css';
 import presentationsArray from './presentationsArray.js';
 
