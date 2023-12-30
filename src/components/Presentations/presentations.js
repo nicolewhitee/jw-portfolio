@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './presentations.css';
-import Fade from 'react-reveal/Fade';
 import presentationsArray from './presentationsArray.js';
 
 const presentationsPerRow = 6;
@@ -20,19 +19,17 @@ const Presentations = () => {
                     <div className="row d-flex g-5">
                         {presentationsArray.slice(0, next).map((presentation, index) => {
                             return (
-                                <Fade bottom cascade>
-                                    <div className="col-4" key={index}>
-                                        <div className="presentationCard d-flex flex-column">
-                                            <div class="h4">{presentation.event}</div>
-                                            <div class="h6">{presentation.location} &#9675; {presentation.date}</div>
-                                            <hr />
-                                            <div class="h5 mb-auto">{presentation.title}</div>
-                                            <a href={presentation.link} target="_blank" rel="noreferrer" aria-label="Presentation Link">
-                                                <button class="presentationBtn">Link</button>
-                                            </a>
-                                        </div>
+                                <div className="col-4" key={index}>
+                                    <div className="presentationCard d-flex flex-column">
+                                        <div class="h4">{presentation.event}</div>
+                                        <div class="h6">{presentation.location} &#9675; {presentation.date}</div>
+                                        <hr />
+                                        <div class="h5 mb-auto">{presentation.title}</div>
+                                        <a href={presentation.link} target="_blank" rel="noreferrer" aria-label="Presentation Link">
+                                            <button class="presentationBtn">Link</button>
+                                        </a>
                                     </div>
-                                </Fade>
+                                </div>
                             );
                         })}
                     </div>

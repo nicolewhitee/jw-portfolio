@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Fade from 'react-reveal/Fade';
 import './patents.css';
 import patentsArray from './patentsArray.js';
 
@@ -20,16 +19,14 @@ const Patents = () => {
                     <div className="row display-flex g-5">
                         {patentsArray.slice(0, next).map((patent, index) => {
                             return (
-                                <Fade bottom cascade>
-                                    <div className="col-12" key={index}>
-                                        <div className="patentCardLightBlue">
-                                            <div class="h5">{patent.title}</div>
-                                            <hr/>
-                                            <div class="h6">{patent.patentId} &#9675; {patent.dateIssued}</div>
-                                            <p class="patentDescr">{patent.description}</p>
-                                        </div>
+                                <div className="col-12" key={index}>
+                                    <div className="patentCardLightBlue">
+                                        <div class="h5">{patent.title}</div>
+                                        <hr/>
+                                        <div class="h6">{patent.patentId} &#9675; {patent.dateIssued}</div>
+                                        <p class="patentDescr">{patent.description}</p>
                                     </div>
-                                </Fade>
+                                </div>
                             );
                         })}
                     </div>
