@@ -35,7 +35,7 @@
     border: 2px solid yellow;
     border-radius: 1rem;
     width: 10rem;
-    color: white;
+    color: white !important;
 }
 
 .presentationBtn:hover {
