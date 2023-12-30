@@ -61,6 +61,10 @@
     width: 10rem;
 }
 
+.yellowBtn:visited {
+    color: black;
+}
+
 .yellowBtn:hover {
     background: yellow;
 }
