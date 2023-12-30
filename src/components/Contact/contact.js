@@ -1,7 +1,6 @@
 import './contact.css';
 import twitterIcon from '../../assets/twitter.png';
 import linkedInIcon from '../../assets/linkedin.png';
-import githubIcon from '../../assets/github.png';
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -80,9 +79,6 @@ const Contact = () => {
                     <div className="links">
                         <a href="https://www.linkedin.com/in/wjeffwhite/" target="_blank" rel="noreferrer" aria-label="Linked In">
                             <img src={linkedInIcon} alt="LinkedIn" className="link" />
-                        </a>
-                        <a href="https://www.linkedin.com/in/wjeffwhite/" target="_blank" rel="noreferrer" aria-label="GitHub">
-                            <img src={githubIcon} alt="GitHub" className="link" />
                         </a>
                         <a href="https://twitter.com/wjeffwhite?s=11&t=WfdM9Plu8tEwtS6ePJjaVQ" target="_blank" rel="noreferrer" aria-label="Twitter">
                             <img src={twitterIcon} alt="Twitter" className="link" />
