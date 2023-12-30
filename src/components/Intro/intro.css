@@ -42,6 +42,16 @@
     letter-spacing: 1px;
 }
 
+.revealText {
+    visibility: hidden;
+}
+
+.line {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
 .yellowBtn {
     background: white;
     margin: 1rem 0;
