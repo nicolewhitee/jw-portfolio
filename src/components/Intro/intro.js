@@ -57,7 +57,7 @@ const Intro = () => {
                 <span className="titleText revealText" aria-level="2" role="heading">at Dell Technologies</span>
                 <p className="introPara revealText" aria-label="Introduction Text" role="contentinfo">Experienced technology executive with proven record of accomplishment</p>
                 <button className="yellowBtn" onClick={() => {
-                    document.getElementById('skills').scrollIntoView({ behavior: 'smooth' });
+                    document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
                 }}>Learn More</button>
             </div>
             <img src={bg} alt="Profile" className="bg" />
