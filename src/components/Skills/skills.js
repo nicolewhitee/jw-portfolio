@@ -3,7 +3,7 @@ import './skills.css';
 import ArtificialIntelligence from '../../assets/artificial-intelligence.png';
 import EdgeCompute from '../../assets/edge-computing.png';
 import Telecommunications from '../../assets/telecommunication.png';
-import AgileMethodology from '../../assets/agile.png';
+import SoftwareArchitecture from '../../assets/sw-arch.png';
 import Dell from '../../assets/dell-logo.png';
 import ElefanteGroup from '../../assets/elefante-logo.jpg';
 import HP from '../../assets/hp-logo.png';
@@ -22,11 +22,11 @@ const Skills = () => {
                 </p>
                 <br/>
                 <p>
-                    Jeff has also held senior roles at an early-stage artificial intelligence/machine reasoning-based robotic
-                    process automation technology provider and served as CTO of Elefante Group, a stratospheric wireless
+                    Jeff has also held senior roles at early-stage artificial intelligence/machine reasoning-based robotic
+                    process automation technology providers and served as CTO of Elefante Group, a stratospheric wireless
                     communications platform.  He also held senior positions at Hewlett Packard Enterprise, Ericsson and
                     Alcatel-Lucent where he led technology initiatives, solutions development, business development and
-                    services delivery.  Prior Jeff worked at Cingular Wireless and BellSouth in technology and operations
+                    services delivery.  Prior, Jeff worked at Cingular Wireless and BellSouth in technology and operations
                     roles.
                 </p>
             </div>
@@ -60,9 +60,9 @@ const Skills = () => {
                     </div>
                     <div className="col-6">
                         <div className="skillCard">
-                            <img src={AgileMethodology} alt="Agile Methodology" className="skillBarImg" />
+                            <img src={SoftwareArchitecture} alt="Software Architecture" className="skillBarImg" />
                             <div className="skillBarText">
-                                <div class="h2">Agile Methodology</div>
+                                <div class="h2">Modern Software Architecture</div>
                             </div>
                         </div>
                     </div>

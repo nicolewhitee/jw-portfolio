@@ -13,7 +13,7 @@ const Intro = () => {
                 </span>
                 <p className="introPara" aria-label="Introduction Text" role="contentinfo">Experienced technology executive with proven record of accomplishment</p>
 
-                <button className="learnMoreBtn" onClick={() => {
+                <button className="yellowBtn" onClick={() => {
                     document.getElementById('skills').scrollIntoView({ behavior: 'smooth' });
                 }}>Learn More</button>
             </div>

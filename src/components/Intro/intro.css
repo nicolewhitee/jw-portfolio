@@ -42,7 +42,7 @@
     letter-spacing: 1px;
 }
 
-.learnMoreBtn {
+.yellowBtn {
     background: white;
     margin: 1rem 0;
     padding: 0.75rem 1.5rem;
@@ -51,7 +51,7 @@
     width: 10rem;
 }
 
-.learnMoreBtn:hover {
+.yellowBtn:hover {
     background: yellow;
 }
 
