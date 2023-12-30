@@ -66,7 +66,7 @@ const About = () => {
             </div>
 
             <span className="headerTitle" aria-level="1" role="heading">Skills</span>
-            <div className="container">
+            <div className="container text-center">
                 <div className="row display-flex g-5">
                     <div className="skill-col-expand">
                             <div className="skillCard">
