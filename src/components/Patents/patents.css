@@ -29,6 +29,7 @@
     background: #B1DDE3;
     color: black;
     height: 100%;
+    border-radius: 0.5rem;
 }
 
 .patentCardMediumBlue {
@@ -36,6 +37,7 @@
     background: #B1CBE3;
     color: black;
     height: 100%;
+    border-radius: 0.5rem;
 }
 
 .patentCardDarkBlue {
@@ -43,6 +45,7 @@
     background: #97BDEA;
     color: black;
     height: 100%;
+    border-radius: 0.5rem;
 }
 
 .row.display-flex {

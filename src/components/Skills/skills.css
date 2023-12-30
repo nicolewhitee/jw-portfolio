@@ -1,5 +1,6 @@
 #skills {
     overflow: hidden;
+    padding-top: 2rem;
     width: 100vw;
     max-width: 65rem;
     display: flex;

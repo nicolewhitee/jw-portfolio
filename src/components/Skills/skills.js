@@ -3,7 +3,7 @@ import './skills.css';
 import ArtificialIntelligence from '../../assets/artificial-intelligence.png';
 import EdgeCompute from '../../assets/edge-computing.png';
 import Telecommunications from '../../assets/telecommunication.png';
-import AgileMethodology from '../../assets/agile.png';
+import SoftwareArchitecture from '../../assets/sw-arch.png';
 import Dell from '../../assets/dell-logo.png';
 import ElefanteGroup from '../../assets/elefante-logo.jpg';
 import HP from '../../assets/hp-logo.png';
@@ -11,11 +11,11 @@ import HP from '../../assets/hp-logo.png';
 const Skills = () => {
     return (
         <section id='skills'>
-            <span className="headerTitle">About</span>
+            <span className="headerTitle" aria-level="1" role="heading">About</span>
             <div className='container'>
                 <p>
                     Jeff is the CTO for Edge at Dell Technologies.  Jeff leads the research and development of
-                    Edge technologies for Dell’s product and operations.  His technology focus is on edge application
+                    Edge technologies for Dell's product and operations.  His technology focus is on edge application
                     execution characterization and management, edge scheduling/control algorithm design, edge data
                     management, AI/ML edge operations, AI/ML drift detection and mitigation, edge networking optimization,
                     and emerging machine reasoning control for distributed platforms.
@@ -23,14 +23,15 @@ const Skills = () => {
                 <br/>
                 <p>
                     Jeff has also held senior roles at early-stage artificial intelligence/machine reasoning-based robotic
-                    process automation technology provider and served as CTO of Elefante Group, a stratospheric wireless
+                    process automation technology providers and served as CTO of Elefante Group, a stratospheric wireless
                     communications platform.  He also held senior positions at Hewlett Packard Enterprise, Ericsson and
                     Alcatel-Lucent where he led technology initiatives, solutions development, business development and
-                    services delivery.  Prior Jeff worked at Cingular Wireless and BellSouth in technology and operations
+                    services delivery.  Prior, Jeff worked at Cingular Wireless and BellSouth in technology and operations
                     roles.
                 </p>
             </div>
-            <span className="headerTitle">Skills</span>
+
+            <span className="headerTitle" aria-level="1" role="heading">Skills</span>
             <div className="container">
                 <div className="row display-flex g-5">
                     <div className="col-6">
@@ -59,16 +60,16 @@ const Skills = () => {
                     </div>
                     <div className="col-6">
                         <div className="skillCard">
-                            <img src={AgileMethodology} alt="Agile Methodology" className="skillBarImg" />
+                            <img src={SoftwareArchitecture} alt="Software Architecture" className="skillBarImg" />
                             <div className="skillBarText">
-                                <div class="h2">Agile Methodology</div>
+                                <div class="h2">Modern Software Architecture</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <span className="headerTitle">Experience</span>
+            <span className="headerTitle" aria-level="1" role="heading">Experience</span>
             <div className="skillBars">
                 <div className="skillBar">
                     <img src={Dell} alt="AppDesign" className="skillBarImg" />

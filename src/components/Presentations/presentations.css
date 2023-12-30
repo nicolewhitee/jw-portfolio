@@ -4,3 +4,18 @@
     text-align: center;
     padding: 0 1rem;
 }
+
+.presentationCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2em !important;
+    background: rgb(50, 50, 50);
+    border-radius: 0.5rem;
+    color: white;
+    height: 100%;
+}
+
+.presentationBtn {
+    align-self: center;
+}
