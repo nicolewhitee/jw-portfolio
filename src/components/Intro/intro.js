@@ -39,10 +39,14 @@ const Intro = () => {
             });
         };
 
-        window.addEventListener('load', handleLoad);
-        return () => {
-            window.removeEventListener('load', handleLoad);
-        };
+        if (document.readyState === "complete") {
+            handleLoad();
+        } else {
+            window.addEventListener('load', handleLoad);
+            return () => {
+                window.removeEventListener('load', handleLoad);
+            };
+        }
     }, []);
 
     return (
