@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import Fade from 'react-reveal/Fade';
 import './patents.css';
 import patentsArray from './patentsArray.js';
 
-const patentPerRow = 3;
+const patentPerRow = 2;
 
 const Patents = () => {
     const [next, setNext] = useState(patentPerRow);
@@ -10,6 +11,7 @@ const Patents = () => {
     const handleMorePatents = () => {
         setNext(next + patentPerRow);
     }
+
     return (
         <>
             <section id='patents'>
@@ -18,20 +20,22 @@ const Patents = () => {
                     <div className="row display-flex g-5">
                         {patentsArray.slice(0, next).map((patent, index) => {
                             return (
-                                <div className="col-12" key={index}>
-                                    <div className={patent.cardStyle}>
-                                        <div class="h5">{patent.title}</div>
-                                        <hr/>
-                                        <div class="h6">{patent.patentId} &#9675; {patent.dateIssued}</div>
-                                        <p class="patentDescr">{patent.description}</p>
+                                <Fade bottom cascade>
+                                    <div className="col-12" key={index}>
+                                        <div className="patentCardLightBlue">
+                                            <div class="h5">{patent.title}</div>
+                                            <hr/>
+                                            <div class="h6">{patent.patentId} &#9675; {patent.dateIssued}</div>
+                                            <p class="patentDescr">{patent.description}</p>
+                                        </div>
                                     </div>
-                                </div>
+                                </Fade>
                             );
                         })}
                     </div>
 
                     {next < patentsArray?.length && (
-                        <button className="patentBtn" onClick={handleMorePatents}>See More</button>
+                        <button className="seeMoreBtn" onClick={handleMorePatents}>See More</button>
                     )}
                 </div>
             </section>

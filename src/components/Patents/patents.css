@@ -15,7 +15,7 @@
     text-align: left;
 }
 
-.patentBtn {
+.seeMoreBtn {
     margin: 3rem 0;
     padding: 0.5rem 2.5rem;
     border: none;
@@ -24,26 +24,14 @@
     font-size: 1rem;
 }
 
+.seeMoreBtn:hover {
+    background: yellow;
+}
+
 .patentCardLightBlue {
     padding: 2em !important;
-    background: #B1DDE3;
-    color: black;
-    height: 100%;
-    border-radius: 0.5rem;
-}
-
-.patentCardMediumBlue {
-    padding: 2em !important;
-    background: #B1CBE3;
-    color: black;
-    height: 100%;
-    border-radius: 0.5rem;
-}
-
-.patentCardDarkBlue {
-    padding: 2em !important;
-    background: #97BDEA;
-    color: black;
+    background: rgba(177, 203, 227, 0.5);
+    color: white;
     height: 100%;
     border-radius: 0.5rem;
 }

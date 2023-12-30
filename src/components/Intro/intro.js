@@ -20,13 +20,13 @@ const Intro = () => {
             });
 
             gsap.registerPlugin(ScrollTrigger);
-            let revealLines = revealText.forEach((element) => {
+            revealText.forEach((element) => {
                 const lines = element.querySelectorAll(".line .words");
 
                 let tl = gsap.timeline({
                     scrollTrigger: {
                         trigger: element,
-                        toggleActions: "restart none none reset",
+                        toggleActions: "play none none none",
                     }
                 });
                 tl.set(revealText, { autoAlpha: 1 });
@@ -38,6 +38,7 @@ const Intro = () => {
                 });
             });
         };
+
         window.addEventListener('load', handleLoad);
         return () => {
             window.removeEventListener('load', handleLoad);
@@ -47,7 +48,7 @@ const Intro = () => {
     return (
         <section id="intro">
             <div className="introContent">
-                <span className="introName revealText" aria-level="1" role="heading">Jeff White</span>
+                <span className="introName revealText" id="textColorChange" aria-level="1" role="heading">Jeff White</span>
                 <span className="titleText revealText" aria-level="2" role="heading">CTO Product & Operations - Edge Technology</span>
                 <span className="titleText revealText" aria-level="2" role="heading">at Dell Technologies</span>
                 <p className="introPara revealText" aria-label="Introduction Text" role="contentinfo">Experienced technology executive with proven record of accomplishment</p>

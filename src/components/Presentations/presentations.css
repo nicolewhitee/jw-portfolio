@@ -18,4 +18,15 @@
 
 .presentationBtn {
     align-self: center;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid yellow;
+    border-radius: 1rem;
+    width: 10rem;
+    color: white;
+}
+
+.presentationBtn:hover {
+    background: yellow;
+    color: black;
 }

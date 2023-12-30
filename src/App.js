@@ -1,6 +1,6 @@
 import Navbar from "./components/NavBar/navbar";
 import Intro from './components/Intro/intro';
-import Skills from "./components/Skills/skills";
+import About from "./components/About/about";
 import Patents from "./components/Patents/patents";
 import Presentations from "./components/Presentations/presentations"
 import Contact from "./components/Contact/contact";
@@ -11,7 +11,7 @@ function App() {
         <div className="App">
             <Navbar />
             <Intro />
-            <Skills />
+            <About />
             <Patents />
             <Presentations />
             <Contact />
