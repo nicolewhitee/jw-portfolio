@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './presentations.css';
 import presentationsArray from './presentationsArray.js';
 
@@ -19,7 +19,7 @@ const Presentations = () => {
                     <div className="row d-flex g-5">
                         {presentationsArray.slice(0, next).map((presentation, index) => {
                             return (
-                                <div className="col-4" key={index}>
+                                <div className="presentation-col-expand" key={index}>
                                     <div className="presentationCard d-flex flex-column">
                                         <div class="h4">{presentation.event}</div>
                                         <div class="h6">{presentation.location} &#9675; {presentation.date}</div>

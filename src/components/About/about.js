@@ -68,7 +68,7 @@ const About = () => {
             <span className="headerTitle" aria-level="1" role="heading">Skills</span>
             <div className="container">
                 <div className="row display-flex g-5">
-                    <div className="col-6">
+                    <div className="skill-col-expand">
                             <div className="skillCard">
                                 <img src={ArtificialIntelligence} alt="Artificial Intelligence" className="skillBarImg" />
                                 <div className="skillBarHeaderText">
@@ -76,7 +76,7 @@ const About = () => {
                                 </div>
                             </div>
                     </div>
-                    <div className="col-6">
+                    <div className="skill-col-expand">
                             <div className="skillCard">
                                 <img src={EdgeCompute} alt="Edge Compute" className="skillBarImg" />
                                 <div className="skillBarHeaderText">
@@ -84,7 +84,7 @@ const About = () => {
                                 </div>
                             </div>
                     </div>
-                    <div className="col-6">
+                    <div className="skill-col-expand">
                             <div className="skillCard">
                                 <img src={Telecommunications} alt="Telecommunications" className="skillBarImg" />
                                 <div className="skillBarHeaderText">
@@ -92,7 +92,7 @@ const About = () => {
                                 </div>
                             </div>
                     </div>
-                    <div className="col-6">
+                    <div className="skill-col-expand">
                         <div className="skillCard">
                             <img src={SoftwareArchitecture} alt="Software Architecture" className="skillBarImg" />
                             <div className="skillBarHeaderText">
