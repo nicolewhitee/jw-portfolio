@@ -21,12 +21,12 @@ const Presentations = () => {
                             return (
                                 <div className="presentation-col-expand" key={index}>
                                     <div className="presentationCard d-flex flex-column">
-                                        <div class="h4">{presentation.event}</div>
-                                        <div class="h6">{presentation.location} &#9675; {presentation.date}</div>
+                                        <div className="h4">{presentation.event}</div>
+                                        <div className="h6">{presentation.location} &#9675; {presentation.date}</div>
                                         <hr />
-                                        <div class="h5 mb-auto">{presentation.title}</div>
+                                        <div className="h5 mb-auto">{presentation.title}</div>
                                         <a href={presentation.link} target="_blank" rel="noreferrer" aria-label="Presentation Link">
-                                            <button class="presentationBtn">Link</button>
+                                            <button className="presentationBtn">Link</button>
                                         </a>
                                     </div>
                                 </div>
