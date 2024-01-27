@@ -54,6 +54,15 @@
     background: rgb(50, 50, 50);
 }
 
+
+.awardsBar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgba(151, 189, 234, 0.5);
+}
+
 .skillBarImg {
     object-fit: cover;
     height: 3rem;

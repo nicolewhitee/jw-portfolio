@@ -15,16 +15,17 @@ const Patents = () => {
         <>
             <section id='patents'>
                 <div className="headerTitle" aria-level="1" role="heading">Patents</div>
+                <div className="h5 mb-4">54 patents applied, 8 patents granted to date</div>
                 <div className="container">
                     <div className="row display-flex g-5">
                         {patentsArray.slice(0, next).map((patent, index) => {
                             return (
                                 <div className="col-12" key={index}>
                                     <div className="patentCardLightBlue">
-                                        <div class="h5">{patent.title}</div>
+                                        <div className="h5">{patent.title}</div>
                                         <hr/>
-                                        <div class="h6">{patent.patentId} &#9675; {patent.dateIssued}</div>
-                                        <p class="patentDescr">{patent.description}</p>
+                                        <div className="h6">{patent.patentId} &#9675; {patent.dateIssued}</div>
+                                        <p className="patentDescr">{patent.description}</p>
                                     </div>
                                 </div>
                             );
