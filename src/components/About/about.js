@@ -161,7 +161,7 @@ const About = () => {
                 </div>
             </div>
 
-            <span className="headerTitle" aria-level="1" role="heading">Awards and Recognition</span>
+            <span className="headerTitle text-center" aria-level="1" role="heading">Awards and Recognition</span>
             <div className="container text-center">
                 <div className="awardsBar">
                     <div>
