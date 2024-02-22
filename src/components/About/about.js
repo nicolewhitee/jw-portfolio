@@ -176,8 +176,7 @@ const About = () => {
                 </div>
                 <div className="awardsBar">
                     <div>
-                        <div className="h2">Senior Member, Member</div>
-                        <div className="h3">IEEE &#9675; 1988 - Present</div>
+                        <div className="h2">Senior Member &#9675; IEEE</div>
                         <p>
                             Senior member (2024), recognized by Dallas section (2008), recognized for leadership in industry relations 
                             (2011), best presentation at Envision 2020 conference, keynote speaker at IEEE/ACM Symposium on Edge Computation
