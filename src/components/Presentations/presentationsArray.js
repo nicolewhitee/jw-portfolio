@@ -1,5 +1,19 @@
 const presentationsArray = [
     {
+        event: 'IEEE International Conference on Mobility: Operations, Services, and Technologies',
+        location: 'Dallas, TX',
+        title: 'Future of EV and Connected Autonomous Vehicles',
+        date: 'May 1-3, 2024',
+        link: 'https://ieeemobility.org/MOST2024/'
+    },
+    {
+        event: 'National Institute of Standards and Technology, National Cybersecurity Center of Excellence',
+        location: 'Rockville, MD',
+        title: 'Edge Challenges with Data Management and Networking – Infrastructure and Services track; Present and Future of Network Security',
+        date: 'March 6, 2024',
+        link: 'https://www.nist.gov/news-events/events/ndncomm2024#:~:text=The%202024%20Named%20Data%20Networking,and%20calls%20for%20your%20contributions'
+    },
+    {
         event: 'Dell Technologies',
         location: 'Online',
         title: 'Inferencing at the Edge',
