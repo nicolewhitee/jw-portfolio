@@ -24,3 +24,4 @@ yarn-error.log*
 /.vs
 /.vs/portfolio/v17/.wsuo
 /.vs/slnx.sqlite
+/server/node_modules
