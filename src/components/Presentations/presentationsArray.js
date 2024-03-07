@@ -7,8 +7,8 @@ const presentationsArray = [
         link: 'https://ieeemobility.org/MOST2024/'
     },
     {
-        event: 'National Institute of Standards and Technology, National Cybersecurity Center of Excellence',
-        location: 'Rockville, MD',
+        event: 'NIST - National Cybersecurity Center of Excellence',
+        location: 'Gaithersburg, MD',
         title: 'Edge Challenges with Data Management and Networking – Infrastructure and Services track; Present and Future of Network Security',
         date: 'March 6, 2024',
         link: 'https://www.nist.gov/news-events/events/ndncomm2024#:~:text=The%202024%20Named%20Data%20Networking,and%20calls%20for%20your%20contributions'
