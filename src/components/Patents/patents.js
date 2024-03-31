@@ -15,7 +15,7 @@ const Patents = () => {
         <>
             <section id='patents'>
                 <div className="headerTitle" aria-level="1" role="heading">Patents</div>
-                <div className="h5 mb-4">53 patents applied, 8 patents granted to date</div>
+                <div className="h5 mb-4">53 patents applied, 10 patents granted to date</div>
                 <div className="container">
                     <div className="row display-flex g-5">
                         {patentsArray.slice(0, next).map((patent, index) => {

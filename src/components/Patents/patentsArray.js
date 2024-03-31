@@ -1,24 +1,33 @@
 const patentsArray = [
     {
+        title: 'Method and System for Performing Service Remediation in a Distributed Multi-Tiered Computing Environment',
+        patentId: '11953978',
+        dateIssued: 'Apr 9, 2024',
+        description: 'Techniques described herein relate to a method for manag­ing a distributed multi-tiered computing (DMC) environ­ment. The method includes obtaining, by a local controller associated with a DMC domain, a weighted rank order of causal services associated with a service impairment; obtain­ing contextual information associated with the weighted rank order of causal services; identifying top causal services based on the weighted rank order of causal services; gen­erating, using a causal symbolic engine, a ranked order of top root causes based on the top causal services and the contextual information; selecting remediation profiles asso­ciated with the top root causes; executing remediation profiles in ranked order of the top root causes; making a determination that the remediation profiles were successful; and in response to the determination: logging the service impairment and notifying a user associated with the service impairment.'
+    },
+    {
+        title: 'Enhanced Drift Remediation with Causal Methods and Online Model Modification',
+        patentId: '11928011',
+        dateIssued: 'Mar 12, 2024',
+        description: 'Embodiments of systems and methods for enhanced drift remediation with causal methods and online model modification are described. In some embodiments, an Information Handling System (IHS) may include a processor and a memory coupled to the processor, the memory having program instructions stored thereon that, upon execution, cause the IHS to: detect drift in an Artificial Intelligence (AI) or Machine Learning (ML) model configured to make a prediction or a causal reasoning graphical or structural inference based upon input data, identify a root cause of the drift, and tag the input data with an indication of the root cause.'
+    },
+    {
         title: 'Method and System for Automated Dataset Placement for Application Execution',
         patentId: '11874848',
         dateIssued: 'Jan 16, 2024',
         description: 'Techniques described herein relate to a method for distributed data management. The method may include obtaining data descriptors for an application executing on a data host, performing a dataset policy analysis using the data descriptors to determine a data placement for a dataset associated with the application using a global name repository, performing, based on the data policy analysis, the data placement, and based on the data placement, updating the global name repository.',
-        cardStyle: 'patentCardLightBlue'
     },
     {
         title: 'Optimizing Workflow Movement Through Device Ecosystem Boundaries',
         patentId: '11669525',
         dateIssued: 'Jun 6, 2023',
         description: 'Techniques described herein relate to a method for ­optimizing workflow execution. The method may include receiving an event notification at a service controller, wherein the event notification is associated with a workflow deployed in a device ecosystem; performing, based on receiving the event notification, a workflow reconfiguration action com­prising; providing a first workflow portion to a first platform controller in a first domain in the device ecosystem; trans­mitting a workflow reconfiguration action notification to a second platform controller in a second domain of the device ecosystem; identifying, by the second platform controller and in response to receiving the workflow reconfiguration action notification, a data transfer optimization action asso­ciated with data to be transmitted from the second domain to the first domain and used during execution of the first workflow portion; and transmitting the data from the second domain to the first domain using the data transfer optimi­zation action.',
-        cardStyle: 'patentCardLightBlue'
     },
     {
         title: 'Continuous Integration and Continuous Delivery Pipeline Data for Workflow Deployment',
         patentId: '11669315',
         dateIssued: 'Jun 6, 2023',
         description: 'Techniques described herein relate to a method for using pipeline data for deploying workflows. The method may include determining that a pipeline testing trigger occurred for a workflow; decomposing a pipeline testing manifest of the workflow; generating a testing execution plan using the decomposed workflow; adding instrumentation to the testing execution plan; determining that the instrumented testing execution plan is valid; deploying computing devices within a CI/CD pipeline ecosystem for performing the instrumented testing execution plan; capturing deployment logs; initiating telemetry capture; executing pipeline testing of the work­ flow based on the instrumented testing execution plan; generating a pipeline deployment information set based on the pipeline testing; and providing the pipeline deployment information set to an orchestrator of a production device ecosystem.',
-        cardStyle: 'patentCardLightBlue'
     },
     {
         title: 'Multi-Level Workflow Scheduling Using Meta-Heuristic and Heuristic Algorithms',
@@ -156,11 +165,6 @@ const patentsArray = [
         dateIssued: 'Apr 15, 2022'
     },
     {
-        title: 'Method and System for Performing Service Remediation in a Distributed Multi-Tiered Computing Environment',
-        patentId: '17/722087',
-        dateIssued: 'Apr 15, 2022'
-    },
-    {
         title: 'Method and System for Performing Domain Level Scheduling of an Application in a Distributed Multi-Tiered Computing Environment',
         patentId: '17/721987',
         dateIssued: 'Apr 15, 2022'
@@ -204,11 +208,6 @@ const patentsArray = [
         title: 'Edge Day Zero Secure Infrastructure Provisioning with Autonomic Methods',
         patentId: '17/454170',
         dateIssued: 'Nov 9, 2021'
-    },
-    {
-        title: 'Enhanced Drift Remediation with Causal Methods and Online Model Modification',
-        patentId: '17/507986',
-        dateIssued: 'Oct 22, 2021'
     },
     {
         title: 'Unsupervised Data Characterization Utilizing Drift',
