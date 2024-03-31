@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
-    "\\src\\components",
-    "\\src\\components\\NavBar",
-    "\\src\\components\\Skills"
+    "\\server",
+    "\\src"
   ],
-  "SelectedNode": "\\src\\components\\Skills\\skills.css",
   "PreviewInSolutionExplorer": false
 }

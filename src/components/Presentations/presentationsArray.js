@@ -1,5 +1,20 @@
 const presentationsArray = [
     {
+        event: 'Inter-Academy International Workshop On Future Communications and 6G',
+        location: 'Technology and Innovation Centre University of Strathclyde, Glasgow, Scotland',
+        title: 'Industry Influencers Forum - Emerging Opportunities in AI, Networking, THz, Advanced Computation and Vehicles for Greater Industry Engagement and International Collaboration',
+        date: 'June 24-25, 2024',
+        link: 'https://fws.eee.strath.ac.uk/'
+    },
+    {
+        event: 'Storage Networking Industry Association - SNIA, Compute Memory and Storage Summit',
+        location: 'Online',
+        title: 'Edgenuity - AI/ML In, On, and For the Modern Edge',
+        date: 'May 21-22, 2024',
+        link: 'https://www.snia.org/cms-summit'
+
+    },
+    {
         event: 'IEEE International Conference on Mobility: Operations, Services, and Technologies',
         location: 'Dallas, TX',
         title: 'Future of EV and Connected Autonomous Vehicles',
