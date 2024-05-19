@@ -1,5 +1,11 @@
 const patentsArray = [
     {
+        title: 'Method and System for Provisioning Workflows Based on Locality',
+        patentId: '11972289',
+        dateIssued: 'Apr 30, 2024',
+        description: 'Techniques described herein relate to a method for deploy­ing workflows. The method may include receiving, at a service controller of a federated controller, a request to deploy a workflow in a device ecosystem; decomposing, the workflow into a plurality of workflow portions; identifying an initial platform controller for a domain associated workflow portions; in response to the determination: iden­tifying a plurality of additional platform controllers for additional domains that previously expressed capabilities corresponding to the remaining workflow portions of the plurality of workflow portions; selecting, based on a locality associated with the anchor point, an additional platform controller of the plurality of additional platform controllers; and initiating performance of the workflow using the initial platform controller and the additional platform controller.'
+    },
+    {
         title: 'Method and System for Performing Service Remediation in a Distributed Multi-Tiered Computing Environment',
         patentId: '11953978',
         dateIssued: 'Apr 9, 2024',
@@ -85,7 +91,7 @@ const patentsArray = [
         dateIssued: 'Aug 7, 2023'
     },
     {
-        title: 'Systems and Methods for Edge Resource Demand Load Estimation',
+        title: 'Systems and Methods for Continued Edge Resource Demand Load Estimation',
         patentId: '18/366538',
         dateIssued: 'Aug 7, 2023'
     },
@@ -103,11 +109,6 @@ const patentsArray = [
         title: 'Device Onboarding on Secure Networks',
         patentId: '18/352007',
         dateIssued: 'Jul 13, 2023'
-    },
-    {
-        title: 'Edge Resource Utilization',
-        patentId: '63/450237',
-        dateIssued: 'Mar 6, 2023'
     },
     {
         title: 'Data Discovery and Classification in Information Processing System Environment',
@@ -257,16 +258,6 @@ const patentsArray = [
     {
         title: 'Method and System for Provisioning Workflows with Dynamic Accelerator Pools',
         patentId: '17/236733',
-        dateIssued: 'Apr 21, 2021'
-    },
-    {
-        title: 'Creating and Managing Execution of Workflow Portions Using Chaos Action Sets',
-        patentId: '17/236725',
-        dateIssued: 'Apr 21, 2021'
-    },
-    {
-        title: 'Method and System for Provisioning Workflows Based on Locality',
-        patentId: '17/236754',
         dateIssued: 'Apr 21, 2021'
     },
     {
