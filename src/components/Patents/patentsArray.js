@@ -1,5 +1,17 @@
 const patentsArray = [
     {
+        title: 'Data Management Techniques Using Distributed Policy Agent',
+        patentId: '11995055',
+        dateIssued: 'May 28, 2024',
+        description: 'Certain embodiments described herein relate to a method for distributed data management. The method may include making a first determination that data is written to a data structure of storage of a data host; obtaining, based on the first determination, data information associated with the data; making a second determination of intent corresponding to the data; generating a global name and metadata corresponding to the data, wherein the metadata comprises the intent; and publishing the global name and the metadata to a global name repository.'
+    },
+    {
+        title: 'Method And System For Performing Root Cause Analysis Associated With Service Impairments In A Distributed Multi-Tiered Computing Environment',
+        patentId: '11994975',
+        dateIssued: 'May 28, 2024',
+        description: 'Certain embodiments described herein relate to a method for managing a distributed multi- tiered computing(DMC) environment. The method may include obtaining, by a local controller associated with a DMC domain, a set of correlated services associated with an anomaly; obtaining a service dependency graph associated with the set of correlated services; generating a causal variance for each service using the correlated services and the service dependency graph; generating a weighted rank order of causal services based on the causal variance associated with each service, and the weighted rank order of causal services includes a portion of the services associated with an application associated with the anomaly; and performing remediation based on the weighted rank order of the causal services.'
+    },
+    {
         title: 'Method and System for Provisioning Workflows Based on Locality',
         patentId: '11972289',
         dateIssued: 'Apr 30, 2024',
@@ -186,11 +198,6 @@ const patentsArray = [
         dateIssued: 'Apr 15, 2022'
     },
     {
-        title: 'Method and System for Performing Root Cause Analysis Associated with Service Impairments in a Distributed Multi-Tiered Computing Environment',
-        patentId: '17/722093',
-        dateIssued: 'Apr 15, 2022'
-    },
-    {
         title: 'Method and System for Performing Anomaly Detection in a Distributed Multi-Tiered Computing Environment',
         patentId: '17/722109',
         dateIssued: 'Apr 15, 2022'
@@ -234,11 +241,6 @@ const patentsArray = [
         title: 'System and Methods for Transparent Edge Application Dataset Management and Control',
         patentId: '17/506339',
         dateIssued: 'Oct 20, 2021'
-    },
-    {
-        title: 'Data Management Techniques Using Distributed Policy Agent',
-        patentId: '17/386359',
-        dateIssued: 'Jul 27, 2021'
     },
     {
         title: 'Autonomic Detection and Correction of Artificial Intelligence Model Drift',

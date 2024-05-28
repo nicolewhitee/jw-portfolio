@@ -7,6 +7,13 @@ const presentationsArray = [
         link: 'https://fws.eee.strath.ac.uk/'
     },
     {
+        event: 'Digital Twin Consortium Member Meeting',
+        location: 'Las Vegas, NV',
+        title: 'Dynamic Twin Control Framework for Edge',
+        date: 'June 11-13, 2024',
+        link: 'https://www.digitaltwinconsortium.org/events/q2-member-meeting-2024/'
+    },
+    {
         event: 'Storage Networking Industry Association - SNIA, Compute Memory and Storage Summit',
         location: 'Online',
         title: 'Edgenuity - AI/ML In, On, and For the Modern Edge',
