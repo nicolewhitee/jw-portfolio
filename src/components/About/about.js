@@ -104,14 +104,18 @@ const About = () => {
                         <div className="h2">Chief Technology Officer - Edge Product & Operations</div>
                         <div className="h3">Dell Technologies &#9675; 2022 - Present</div>
                         <p>
-                            Chief Technology Officer for Edge at Dell Technologies CTIO organization.
-                            Focus on Edge platform design and application of Edge technology to current
-                            enterprise use cases and emerging use cases of simulation(XR/VR) and autonomous
-                            systems. Structured Edge partner design program, Edge patent committee co-chair,
-                            member of AI/ML Architecture Review Board. Technical focus areas in Distributed
-                            Systems Design, Edge Orchestration, Edge Infrastructure Control, Scheduling
-                            Algorithm design, AI/ML workload support, MultiCloud Execution Environment, Edge
-                            Information-Data Management, Edge Native Hardware evolution.
+                            Chief Technology Officer for Edge at Dell Technologies ISG CTO organization. Focus
+                            on Edge platform design and application of Edge technology to current enterprise use
+                            cases and emerging use cases of generative AI, simulation(XR/VR) and autonomous system
+                            control. Structured Edge partner design program, Edge patent committee co-chair, member
+                            of AI/ML Architecture Review Board. Technical focus areas in Distributed Systems Design
+                            using Model Driven Agent-Based control, Edge Orchestration, Edge Infrastructure Control,
+                            Scheduling Algorithm design, AI Discriminative/Generative ensemble and multimodal approaches
+                            for AI/ML control, AI/ML workload support, MultiCloud Execution Environment, Edge Information-Data
+                            Management, Edge Native Hardware evolution. Patents in distributed data management, Generative
+                            and Discriminative AI/ML, MultiTier/MultiObjective scheduling orchestration algorithms,
+                            cybersecurity and software defined edge. 14 Patents granted and 37 pending as of July 2024,
+                            see below.
                         </p>
                     </div>
                 </div>

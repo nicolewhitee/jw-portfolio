@@ -1,9 +1,9 @@
 const patentsArray = [
     {
-        title: 'Data Management Techniques Using Distributed Policy Agent',
-        patentId: '11995055',
-        dateIssued: 'May 28, 2024',
-        description: 'Certain embodiments described herein relate to a method for distributed data management. The method may include making a first determination that data is written to a data structure of storage of a data host; obtaining, based on the first determination, data information associated with the data; making a second determination of intent corresponding to the data; generating a global name and metadata corresponding to the data, wherein the metadata comprises the intent; and publishing the global name and the metadata to a global name repository.'
+        title: 'Generating and Managing Workflow Fingerprints Based on Provisioning of Devices in a Device Ecosystem',
+        patentId: '12032993',
+        dateIssued: 'Jul 9, 2024',
+        description: 'Techniques described herein relate to a method for deploy­ing workflows. The method may include receiving, by a platform controller of a domain, a workflow portion from a service controller of a federated controller, provisioning a set of devices in the domain to the workflow portion based on a first fit, generating, by the platform controller, a workflow fingerprint based on the provisioning of the set of devices and based on the workflow portion, executing the workflow portion in the domain using the set of devices, making a determination that the workflow portion requires additional resources, based on the determination, provision­ ing additional resources of the domain to the workflow portion to obtain an updated execution resource set, and updating the workflow fingerprint based on the updated execution resource set to obtain an updated workflow fin­gerprint, and executing the workflow portion using the updated execution resource set.'
     },
     {
         title: 'Method And System For Performing Root Cause Analysis Associated With Service Impairments In A Distributed Multi-Tiered Computing Environment',
@@ -260,11 +260,6 @@ const patentsArray = [
     {
         title: 'Method and System for Provisioning Workflows with Dynamic Accelerator Pools',
         patentId: '17/236733',
-        dateIssued: 'Apr 21, 2021'
-    },
-    {
-        title: 'Generating and Managing Workflow Fingerprints Based on Provisioning of Devices in a Device Ecosystem',
-        patentId: '17/236717',
         dateIssued: 'Apr 21, 2021'
     },
 ]
