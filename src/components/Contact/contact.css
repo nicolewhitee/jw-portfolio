@@ -51,7 +51,7 @@
 
 .name, .email, .msg {
     font-size: medium;
-    width: 100%;
+    width: 90%;
     max-width: 40rem;
     margin: 0.5rem;
     padding: 0.5rem 1rem;
@@ -71,7 +71,7 @@
 }
 
 .submitBtn:hover {
-    background: yellow;
+    background: #4a81cf;
 }
 
 .links {

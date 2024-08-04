@@ -28,7 +28,7 @@
 .introName {
     font-size: 3rem;
     font-weight: 700;
-    color: yellow;
+    color: #4a81cf;
 }
 
 .titleText {
@@ -62,7 +62,7 @@
 }
 
 .yellowBtn:hover {
-    background: yellow;
+    background: #4a81cf;
 }
 
 @media screen and (max-width:840px) {

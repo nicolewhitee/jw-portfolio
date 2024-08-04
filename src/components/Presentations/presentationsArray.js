@@ -1,5 +1,12 @@
 const presentationsArray = [
     {
+        event: 'AI Hardware & Edge AI Summit',
+        location: 'San Jose, CA',
+        title: 'The Impact of LLMs at the Edge - What can we Learn from the Generative AI Boom',
+        date: 'Sep 9-12, 2024',
+        link: 'https://aihwedgesummit.com/events/aihwedgesummit'
+    },
+    {
         event: 'Inter-Academy International Workshop On Future Communications and 6G',
         location: 'Technology and Innovation Centre University of Strathclyde, Glasgow, Scotland',
         title: 'Industry Influencers Forum - Emerging Opportunities in AI, Networking, THz, Advanced Computation and Vehicles for Greater Industry Engagement and International Collaboration',

@@ -23,9 +23,9 @@
 }
 
 .desktopMenuListItem:hover {
-    color: yellow;
+    color: #4a81cf;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid #4a81cf;
 }
 
 .desktopMenuBtn {
@@ -47,9 +47,9 @@
 }
 
 .activeNavbar {
-    color: yellow;
+    color: #4a81cf;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid #4a81cf;
 }
 
 .mobMenu {

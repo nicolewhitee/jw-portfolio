@@ -39,7 +39,7 @@ const About = () => {
             <span className="headerTitle" aria-level="1" role="heading">About</span>
             <div className='container'>
                 <div className="revealText">
-                    <div>
+                    <div class="m-2">
                         Jeff is the CTO for Edge at Dell Technologies.  Jeff leads the research and development of
                         Edge technologies for Dell's product and operations.  His technology focus is on edge application
                         execution characterization and management, edge scheduling/control algorithm design, edge data
@@ -47,7 +47,7 @@ const About = () => {
                         and emerging machine reasoning control for distributed platforms.
                     </div>
                     <br />
-                    <div>
+                    <div class="m-2">
                         Jeff has also held senior roles at early-stage artificial intelligence/machine reasoning-based robotic
                         process automation technology providers and served as CTO of Elefante Group, a stratospheric wireless
                         communications platform.  He also held senior positions at Hewlett Packard Enterprise, Ericsson and
@@ -60,7 +60,7 @@ const About = () => {
 
             <span className="headerTitle" aria-level="1" role="heading">Skills</span>
             <div className="container text-center">
-                <div className="row display-flex g-5">
+                <div className="row display-flex gy-5 mx-0">
                     <div className="skill-col-expand">
                             <div className="skillCard">
                                 <img src={ArtificialIntelligence} alt="Artificial Intelligence" className="skillBarImg" />
@@ -81,7 +81,7 @@ const About = () => {
                             <div className="skillCard">
                                 <img src={Telecommunications} alt="Telecommunications" className="skillBarImg" />
                                 <div className="skillBarHeaderText">
-                                    <div className="h2">Telecommunications</div>
+                                    <div className="h2 text-shrink">Telecommunications</div>
                                 </div>
                             </div>
                     </div>
@@ -98,7 +98,7 @@ const About = () => {
 
             <span className="headerTitle" aria-level="1" role="heading">Experience</span>
             <div className="experienceBars">
-                <div className="experienceBar">
+                <div className="experienceBar mx-0">
                     <img src={Dell} alt="Dell Logo" className="experienceBarImg" />
                     <div>
                         <div className="h2">Chief Technology Officer - Edge Product & Operations</div>
@@ -119,7 +119,7 @@ const About = () => {
                         </p>
                     </div>
                 </div>
-                <div className="experienceBar">
+                <div className="experienceBar mx-0">
                     <img src={Dell} alt="Dell Logo" className="experienceBarImg" />
                     <div>
                         <div className="h2">Industry Chief Technology Officer - Edge Technology and Autonomous Systems</div>
@@ -138,7 +138,7 @@ const About = () => {
                         </p>
                     </div>
                 </div>
-                <div className="experienceBar">
+                <div className="experienceBar mx-0">
                     <img src={ElefanteGroup} alt="Elefante Group Logo" className="experienceBarImg" />
                     <div>
                         <div class="h2">Chief Technology Officer</div>
@@ -151,7 +151,7 @@ const About = () => {
                         </p>
                     </div>
                 </div>
-                <div className="experienceBar">
+                <div className="experienceBar mx-0">
                     <img src={HP} alt="HP Logo" className="experienceBarImg" />
                     <div>
                         <div class="h2">Head of Communications Media & Entertainment Practice Americas</div>

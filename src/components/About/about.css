@@ -19,7 +19,7 @@
 }
 
 .headerTitle {
-    font-size: 3rem;
+    font-size: 4vmax;
     font-weight: 600;
     padding-top: 3rem;
     margin-bottom: 1.5rem;
@@ -78,13 +78,15 @@
     margin-right: 2rem;
 }
 
-@media screen and (max-width:480px) {
-    .skillBarImg {
-        height: 2.25rem;
-        width: 2.25rem;
-    }
-    .skillBarHeaderText {
-        font-size: 5vw;
+.skill-col-expand {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+@media screen and (max-width:1000px) {
+    .skill-col-expand {
+        flex: 0 0 auto;
+        width: 100%;
     }
 }
 
@@ -95,14 +97,23 @@
     }
 }
 
-.skill-col-expand {
-    flex: 0 0 auto;
-    width: 50%;
+@media screen and (max-width:480px) {
+    .skillBarImg {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+
+    .skillBarHeaderText {
+        font-size: 5vw;
+    }
 }
 
-@media screen and (max-width:1000px) {
-    .skill-col-expand {
-        flex: 0 0 auto;
-        width: 100%;
+@media screen and (max-width: 400px) {
+    .text-shrink {
+        font-size: 5vw;
+    }
+
+    .experienceBarImg {
+        display: none;
     }
 }
