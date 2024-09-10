@@ -1,9 +1,21 @@
 const patentsArray = [
     {
+        title: 'Edge Day Zero Secure Infrastructure Identification',
+        patentId: '12086255',
+        dateIssued: 'Sep 10, 2024',
+        description: 'Self-provisioning a computer system is illustrated. Code in a secure base activation image implements an auto-connection service at the computer system. The auto-connection service attempts to perform a local activation by attempting to determine that a private port is open and using the private port, initiating an identification and attestation process with an activation service. The auto-connection service performs a remote activation by determining that the private port is closed, defaulting activation to a public port, and using the public port, initiating an identification and attestation process with the activation service. Code in the base activation image implements service(s) which execute an identification process, using a cryptographically created identifier included in the base activation image, with the activation service to confirm an identity of the computer system, confirming system integrity of the computer system with the activation service, unlocking the computer system for load installation.'
+    },
+    {
         title: 'Generating and Managing Workflow Fingerprints Based on Provisioning of Devices in a Device Ecosystem',
         patentId: '12032993',
         dateIssued: 'Jul 9, 2024',
         description: 'Techniques described herein relate to a method for deploy­ing workflows. The method may include receiving, by a platform controller of a domain, a workflow portion from a service controller of a federated controller, provisioning a set of devices in the domain to the workflow portion based on a first fit, generating, by the platform controller, a workflow fingerprint based on the provisioning of the set of devices and based on the workflow portion, executing the workflow portion in the domain using the set of devices, making a determination that the workflow portion requires additional resources, based on the determination, provision­ ing additional resources of the domain to the workflow portion to obtain an updated execution resource set, and updating the workflow fingerprint based on the updated execution resource set to obtain an updated workflow fin­gerprint, and executing the workflow portion using the updated execution resource set.'
+    },
+    {
+        title: 'Data Management Techniques Using Distributed Policy Agent',
+        patentId: '11995055',
+        dateIssued: 'May 28, 2024',
+        description: 'Techniques described herein relate to a method for distrib­uted data management. The method may include making a first determination that data is written to a data structure of storage of a data host; obtaining, based on the first deter­mination, data information associated with the data; making a second determination of intent corresponding to the data; generating a global name and metadata corresponding to the data, wherein the metadata comprises the intent; and publishing the global name and metadata to a global name repository.'
     },
     {
         title: 'Method And System For Performing Root Cause Analysis Associated With Service Impairments In A Distributed Multi-Tiered Computing Environment',
@@ -205,11 +217,6 @@ const patentsArray = [
     {
         title: 'Secure Base Activation Image for Edge Day Zero Secure Infrastructure Provisioning',
         patentId: '17/454166',
-        dateIssued: 'Nov 9, 2021'
-    },
-    {
-        title: 'Edge Day Zero Secure Infrastructure Identification and Attestation',
-        patentId: '17/454158',
         dateIssued: 'Nov 9, 2021'
     },
     {

@@ -1,8 +1,22 @@
 const presentationsArray = [
     {
+        event: 'Inter-Academy International 6G Symposium',
+        location: 'New Delhi, IN',
+        title: 'Resiliency and Sustainability of 6G for Autonomous, Cloud/Edge and Security',
+        date: 'Oct 16-18, 2024',
+        link: 'https://www.indiamobilecongress.com/'
+    },
+    {
+        event: 'AHEAD Leadership Summit',
+        location: 'Palm Beach, FL',
+        title: 'Understanding Your Edge: Evolving the Technology Closer to the Business Challenge',
+        date: 'Sep 30-Oct 2, 2024',
+        link: ''
+    },
+    {
         event: 'AI Hardware & Edge AI Summit',
         location: 'San Jose, CA',
-        title: 'The Impact of LLMs at the Edge - What can we Learn from the Generative AI Boom',
+        title: 'The Impact of LLMs at the Edge - What can we Learn from the Generative AI Boom; Unleashing AI Acceleration from Edge to MultiCloud',
         date: 'Sep 9-12, 2024',
         link: 'https://aihwedgesummit.com/events/aihwedgesummit'
     },

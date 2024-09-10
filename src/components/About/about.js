@@ -169,6 +169,16 @@ const About = () => {
             <div className="container text-center">
                 <div className="awardsBar">
                     <div>
+                        <div className="h2">Steering Committee Board Member</div>
+                        <div className="h3">Digital Twin Consortium &#9675; Aug 2024 - Present</div>
+                        <p>
+                            Member of the Digital Twin Consortium Steering Committee Board representing
+                            Dell Technologies
+                        </p>
+                    </div>
+                </div>
+                <div className="awardsBar">
+                    <div>
                         <div className="h2">Chairman Board of Directors, Director</div>
                         <div className="h3">Tech Titans &#9675; Jan 2007 - 2014</div>
                         <p>
