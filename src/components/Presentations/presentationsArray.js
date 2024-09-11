@@ -11,7 +11,7 @@ const presentationsArray = [
         location: 'Palm Beach, FL',
         title: 'Understanding Your Edge: Evolving the Technology Closer to the Business Challenge',
         date: 'Sep 30-Oct 2, 2024',
-        link: ''
+        link: 'https://events.ahead.com/aheadleadershipsummit'
     },
     {
         event: 'AI Hardware & Edge AI Summit',
