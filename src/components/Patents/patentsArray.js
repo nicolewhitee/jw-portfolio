@@ -1,5 +1,11 @@
 const patentsArray = [
     {
+        title: 'Secure Base Activation Image for Edge Day Zero Secure Infrastructure Provisioning',
+        patentId: '12105850',
+        dateIssued: 'Oct 01, 2024',
+        description: 'A method of implementing a self-provisioning computer system is shown. The method includes storing a secure base activation image on a computer system.This includes stor­ing executable code to implement enhanced network dis­covery configured to first attempt to determine if a private TCP port is open and if the private TCP port is not open to default to use of a public URL on a well- known TCP port at the computer system.This further includes storing execut­able code to implement an auto - connection service config­ured to automatically connect to a remote activation service to perform identification and attestation of the computer system. This further includes storing executable code to implement a secure vault for cryptographic secrets.'
+    },
+    {
         title: 'Edge Day Zero Secure Infrastructure Identification',
         patentId: '12086255',
         dateIssued: 'Sep 10, 2024',
@@ -88,6 +94,46 @@ const patentsArray = [
         patentId: '11463315',
         dateIssued: 'Oct 4, 2022',
         description: 'Techniques described herein relate to a method for deploy­ing workflows. The method may include receiving, by a platform controller of a domain, a workflow portion and workflow constraints from a service controller of a federated controller, provisioning, by the platform controller, a set of devices in the domain to the workflow portion, executing the workflow portion in the domain using the set of devices, monitoring the executing of the workflow portion to deter­ mine an occupancy of the workflow portion, making a determination that the occupancy of the workflow portion exceeds an available capacity of the domain, providing, based on the determination, the occupancy to the service controller, and in response to the occupancy, performing, by the service controller, a remediation action.'
+    },
+    {
+        title: 'Autonomous Failover DTPC Control Continuity',
+        patentId: '18/890969',
+        dateIssued: 'Sep 20, 2024'
+    },
+    {
+        title: 'Edge Agent Choreographer Control System',
+        patentId: '18/890973',
+        dateIssued: 'Sep 20, 2024'
+    },
+    {
+        title: 'Edge Data Autonomic Process Control System',
+        patentId: '18/890978',
+        dateIssued: 'Sep 20, 2024'
+    },
+    {
+        title: 'Objective Optimization Reasoning Engine',
+        patentId: '18/890981',
+        dateIssued: 'Sep 20, 2024'
+    },
+    {
+        title: 'Predictive Control In Distributed Systems',
+        patentId: '18/890965',
+        dateIssued: 'Sep 20, 2024'
+    },
+    {
+        title: 'Local Zone Predictive Control',
+        patentId: '18/890991',
+        dateIssued: 'Sep 20, 2024'
+    },
+    {
+        title: 'Distributed System Management With Control',
+        patentId: '18/891017',
+        dateIssued: 'Sep 20, 2024'
+    },
+    {
+        title: 'Distributed System Management Validation',
+        patentId: '18/891061',
+        dateIssued: 'Sep 20, 2024'
     },
     {
         title: 'Systems and Methods for Hypergraph Edge Resource Demand Load Representation',
@@ -213,11 +259,6 @@ const patentsArray = [
         title: 'Method and System for Performing Anomaly Detection in a Distributed Multi-Tiered Computing Environment',
         patentId: '17/722109',
         dateIssued: 'Apr 15, 2022'
-    },
-    {
-        title: 'Secure Base Activation Image for Edge Day Zero Secure Infrastructure Provisioning',
-        patentId: '17/454166',
-        dateIssued: 'Nov 9, 2021'
     },
     {
         title: 'Edge Day Zero Secure Infrastructure Provisioning with Autonomic Methods',

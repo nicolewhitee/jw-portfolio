@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\server",
-    "\\src"
+    "\\Local settings (.vs)",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\About",
+    "\\src\\components\\Presentations"
   ],
+  "SelectedNode": "\\Local settings (.vs)\\ProjectSettings.json",
   "PreviewInSolutionExplorer": false
 }
