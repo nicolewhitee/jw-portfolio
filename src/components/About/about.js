@@ -3,6 +3,7 @@ import { gsap, Power3 } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import './about.css';
 import ArtificialIntelligence from '../../assets/artificial-intelligence.png';
+import DigitalTwinConsort from '../../assets/digital-twin-consort-logo.jpg';
 import EdgeCompute from '../../assets/edge-computing.png';
 import Telecommunications from '../../assets/telecommunication.png';
 import SoftwareArchitecture from '../../assets/sw-arch.png';
@@ -101,8 +102,32 @@ const About = () => {
                 <div className="experienceBar mx-0">
                     <img src={Dell} alt="Dell Logo" className="experienceBarImg" />
                     <div>
+                        <div className="h2">AI Factory and Edge Product Development Lead</div>
+                        <div className="h3">Dell Technologies &#9675; Aug 2024 - Present</div>
+                        <p>
+                            Responsible for Dell AI Factory and Edge AI product strategy, technical direction,
+                            product requirements and development. Support major business development initiatives.
+                            Determine financial business case for AI Factory. Interface with key partners Nvidia,
+                            AMD, Intel, Foundation Model developers and AI software ecosystem. Serve as Product
+                            Owner for AI Factory in our agile development process.
+                        </p>
+                    </div>
+                </div>
+                <div className="experienceBar mx-0">
+                    <img src={DigitalTwinConsort} alt="Digital Twin Consortium Logo" className="experienceBarImg" />
+                    <div>
+                        <div className="h2">AI Factory and Edge Product Development Lead</div>
+                        <div className="h3">Digital Twin Consortium &#9675; Aug 2024 - Present</div>
+                        <p>
+                            Member of the Digital Twin Consortium Steering Committee Board representing Dell Technologies.
+                        </p>
+                    </div>
+                </div>
+                <div className="experienceBar mx-0">
+                    <img src={Dell} alt="Dell Logo" className="experienceBarImg" />
+                    <div>
                         <div className="h2">Chief Technology Officer - Edge Product & Operations</div>
-                        <div className="h3">Dell Technologies &#9675; 2022 - Present</div>
+                        <div className="h3">Dell Technologies &#9675; 2022 - Aug 2024</div>
                         <p>
                             Chief Technology Officer for Edge at Dell Technologies ISG CTO organization. Focus
                             on Edge platform design and application of Edge technology to current enterprise use

@@ -1,12 +1,18 @@
 const patentsArray = [
     {
+        title: 'Method and System for Managing Elastic Accelerator Resource Pools with a Shared Storage',
+        patentId: '12204949',
+        dateIssued: 'Jan 21, 2025',
+        description: 'Techniques described herein relate to a method for managing workflows. The method may include obtaining, from a client, by a registration manager associated with accelerator pools, a request to perform a portion of a workflow using accelerators; identifying a minimum quantity and a maximum quantity of accelerators associated with the request; identifying a storage to store data associated with the portion of the workflow; identifying an accelerator pool of the accelerator pools that includes at least the maximum quantity of accelerators; establishing a connection between the client, the storage, and accelerators of the accelerator pool to perform the portion of the workflow; and initiating the performance of the portion of the workflow using the storage, the client, and the accelerators of the accelerator pool.'
+    },
+    {
         title: 'Secure Base Activation Image for Edge Day Zero Secure Infrastructure Provisioning',
         patentId: '12105850',
         dateIssued: 'Oct 01, 2024',
         description: 'A method of implementing a self-provisioning computer system is shown. The method includes storing a secure base activation image on a computer system. This includes stor­ing executable code to implement enhanced network dis­covery configured to first attempt to determine if a private TCP port is open and if the private TCP port is not open to default to use of a public URL on a well-known TCP port at the computer system. This further includes storing execut­able code to implement an auto-connection service config­ured to automatically connect to a remote activation service to perform identification and attestation of the computer system. This further includes storing executable code to implement a secure vault for cryptographic secrets.'
     },
     {
-        title: 'Edge Day Zero Secure Infrastructure Identification',
+        title: 'Edge Day Zero Secure Infrastructure Identification And Attestation',
         patentId: '12086255',
         dateIssued: 'Sep 10, 2024',
         description: 'Self-provisioning a computer system is illustrated. Code in a secure base activation image implements an auto-connection service at the computer system. The auto-connection service attempts to perform a local activation by attempting to determine that a private port is open and using the private port, initiating an identification and attestation process with an activation service. The auto-connection service performs a remote activation by determining that the private port is closed, defaulting activation to a public port, and using the public port, initiating an identification and attestation process with the activation service. Code in the base activation image implements service(s) which execute an identification process, using a cryptographically created identifier included in the base activation image, with the activation service to confirm an identity of the computer system, confirming system integrity of the computer system with the activation service, unlocking the computer system for load installation.'
@@ -94,6 +100,41 @@ const patentsArray = [
         patentId: '11463315',
         dateIssued: 'Oct 4, 2022',
         description: 'Techniques described herein relate to a method for deploy­ing workflows. The method may include receiving, by a platform controller of a domain, a workflow portion and workflow constraints from a service controller of a federated controller, provisioning, by the platform controller, a set of devices in the domain to the workflow portion, executing the workflow portion in the domain using the set of devices, monitoring the executing of the workflow portion to deter­ mine an occupancy of the workflow portion, making a determination that the occupancy of the workflow portion exceeds an available capacity of the domain, providing, based on the determination, the occupancy to the service controller, and in response to the occupancy, performing, by the service controller, a remediation action.'
+    },
+    {
+        title: 'Local Small Foundation System For Inferencing',
+        patentId: '18/963962',
+        dateIssued: 'Nov 29, 2024'
+    },
+    {
+        title: 'Enhanced Distributed Retrieval Augmented Generation System',
+        patentId: '18/963965',
+        dateIssued: 'Nov 29, 2024'
+    },
+    {
+        title: 'Knowledge Acquisition for Retrieval Augmented Generation System',
+        patentId: '18/963975',
+        dateIssued: 'Nov 29, 2024'
+    },
+    {
+        title: 'Artificial Intelligence Hybrid Distributed Inference System',
+        patentId: '18/936958',
+        dateIssued: 'Nov 29, 2024'
+    },
+    {
+        title: 'Knowledge Acquisition for Distributed Learning Models',
+        patentId: '18/963976',
+        dateIssued: 'Nov 29, 2024'
+    },
+    {
+        title: 'Contextual Active Dynamic Learning with a Digital Twin System',
+        patentId: '18/963981',
+        dateIssued: 'Nov 29, 2024'
+    },
+    {
+        title: 'Symbolic Local Small Foundation Model Composable Reduction',
+        patentId: '18/963980',
+        dateIssued: 'Nov 29, 2024'
     },
     {
         title: 'Autonomous Failover DTPC Control Continuity',
