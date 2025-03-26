@@ -41,15 +41,17 @@ const About = () => {
             <div className='container'>
                 <div className="revealText">
                     <div class="m-2">
-                        Jeff is the CTO for Edge at Dell Technologies.  Jeff leads the research and development of
-                        Edge technologies for Dell's product and operations.  His technology focus is on edge application
-                        execution characterization and management, edge scheduling/control algorithm design, edge data
-                        management, AI/ML edge operations, AI/ML drift detection and mitigation, edge networking optimization,
-                        and emerging machine reasoning control for distributed platforms.
+                        Jeff is an experienced technology executive with proven record of accomplishment. He has successfully
+                        designed and commercialized new technologies, services and business models. He has experience in
+                        modern artificial intelligence, cloud native, communications and information technologies and has
+                        developed technology strategies to successfully build new capabilities that address emerging ecosystems.
+                        He has an adaptive approach to leadership challenges, focused on building value at an accelerating level.
+                        Jeff is an active support of community serving as past Chairman of North Texas regional technology council
+                        Board and IEEE Senior Member.
                     </div>
                     <br />
                     <div class="m-2">
-                        Jeff has also held senior roles at early-stage artificial intelligence/machine reasoning-based robotic
+                        Jeff has held senior roles at early-stage artificial intelligence/machine reasoning-based robotic
                         process automation technology providers and served as CTO of Elefante Group, a stratospheric wireless
                         communications platform.  He also held senior positions at Hewlett Packard Enterprise, Ericsson and
                         Alcatel-Lucent where he led technology initiatives, solutions development, business development and
