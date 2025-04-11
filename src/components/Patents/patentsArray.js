@@ -1,5 +1,35 @@
 const patentsArray = [
     {
+        title: 'Method And System for Provisioning an Application in a Distributed Multi-Tiered Computing Environment Using Case Based Reasoning',
+        patentId: '12265845',
+        dateIssued: 'Apr 1, 2025',
+        description: 'Techniques described herein relate to a method for manag­ing a distributed multi-tiered computing (DMC) environ­ment. The method includes obtaining, by a global controller, a DMC environment management request from a user, whereas the DMC environment management request is associated with scheduling an application in the DMC environment; and in response to obtaining the request: identifying target domains for tasks associated with the application based on the request; selecting scheduling poli­cies for each target domain; obtaining fingerprints of previ­ously provisioned applications associated with the request; performing case based reasoning using the fingerprints to generate scheduling packages for the target domains; send­ing the scheduling packages to local controllers associated with the target domains; obtaining application information from the local controllers; and providing the application information to the user.'
+    },
+    {
+        title: ' Edge Day Zero Secure Infrastructure Provisioning with Autonomic Methods',
+        patentId: '12248577',
+        dateIssued: 'Mar 11, 2025',
+        description: 'A method of provisioning a self-provisioning computer system is disclosed.The method includes executing code in a secure base activation image to perform various functions.This includes executing an identification process, using a cryptographically created identifier included in the base activation image, with an activation service to confirm an identity of the computer system with the activation service.This further includes confirming system integrity of the computer system with the activation service. Based on confirming the identity of the computer system and con­firming system integrity of the computer system, The com­puter system is unlocked for load installation.Load instal­lation is performed by providing capabilities for the computer system to the activation service and receiving the load based on the provided capabilities.'
+    },
+    {
+        title: 'System and Methods for Transparent Edge Application Dataset Management and Control',
+        patentId: '12238349',
+        dateIssued: 'Feb 25, 2025',
+        description: 'Techniques described herein relate to a method for distrib­uted data management.The method may include obtaining, by a data management agent of a data host and from an application executing on the data host, a request to access data; obtaining, by the data management agent, an informa­tion set associated with the data; making a determination, by the data management agent, that at least a portion of the data is not ready to be used by the application; and performing, by the data management agent and based on the determina­tion, a data preparation action set.'
+    },
+    {
+        title: 'Method and System for Performing Domain Level Scheduling of an Application in a Distributed Multi-Tiered Computing Environment using Reinforcement Learning',
+        patentId: '12236267',
+        dateIssued: 'Feb 25, 2025',
+        description: 'Techniques described herein relate to a method for manag­ing a distributed multi- tiered computing(DMC) environ­ment.The method includes decomposing, by a local con­troller  associated  with  an  DMC  domain, a  service dependency graph associated with a scheduling job; assign­ ing normalized compute units and normalized network units to tasks included in the service dependency graph; generat­ing a Q - table using the service dependency graph and reinforcement Q-leaming; calculating a critical path and a max learned path using the Q-table and the service depen­dency graph; calculating the earliest start time and the latest start time for each task using the service dependency graph and the max learned path to obtain a plurality of earliest start time and latest start time pairs for each task; and generating scheduling assignments using the plurality of earliest start time and latest start time pairs for each task.'
+    },
+    {
+        title: 'Feature Extraction and Selection in Information Processing System Environment',
+        patentId: '12229178',
+        dateIssued: 'Feb 18, 2025',
+        description: 'Data characterization techniques in an information process­ing system environment are disclosed.In one example, at least one processing device is configured to obtain data associated with execution of at least one of a plurality of applications in an information processing system. The pro­cessing device extracts features from the obtained data, and then selects a reduced subset of features from the extracted features for use in a machine learning classification process configured to determine an intent of the obtained data.'
+    },
+    {
         title: 'Method and System for Managing Elastic Accelerator Resource Pools with a Shared Storage',
         patentId: '12204949',
         dateIssued: 'Jan 21, 2025',
@@ -232,11 +262,6 @@ const patentsArray = [
         dateIssued: 'Feb 24, 2023'
     },
     {
-        title: 'Feature Extraction and Selection in Information Processing System Environment',
-        patentId: '18/114196',
-        dateIssued: 'Feb 24, 2023'
-    },
-    {
         title: 'Service Impairment Isolation in Information Processing System Environment',
         patentId: '18/113162',
         dateIssued: 'Feb 23, 2023'
@@ -262,18 +287,8 @@ const patentsArray = [
         dateIssued: 'Apr 15, 2022'
     },
     {
-        title: 'Method and System for Performing Domain Level Scheduling of an Application in a Distributed Multi-Tiered Computing Environment',
-        patentId: '17/722042',
-        dateIssued: 'Apr 15, 2022'
-    },
-    {
         title: 'Method and System for Managing Resource Buffers in a Distributed Multi-Tiered Computing Environment',
         patentId: '17/722121',
-        dateIssued: 'Apr 15, 2022'
-    },
-    {
-        title: 'Method and System for Provisioning an Application in a Distributed Multi-Tiered Computing Environment Using Case Based Reasoning',
-        patentId: '17/722136',
         dateIssued: 'Apr 15, 2022'
     },
     {
@@ -302,11 +317,6 @@ const patentsArray = [
         dateIssued: 'Apr 15, 2022'
     },
     {
-        title: 'Edge Day Zero Secure Infrastructure Provisioning with Autonomic Methods',
-        patentId: '17/454170',
-        dateIssued: 'Nov 9, 2021'
-    },
-    {
         title: 'Unsupervised Data Characterization Utilizing Drift',
         patentId: '17/508043',
         dateIssued: 'Oct 22, 2021'
@@ -325,11 +335,6 @@ const patentsArray = [
         title: 'Automated Identification of Training Datasets',
         patentId: '17/508017',
         dateIssued: 'Oct 21, 2021'
-    },
-    {
-        title: 'System and Methods for Transparent Edge Application Dataset Management and Control',
-        patentId: '17/506339',
-        dateIssued: 'Oct 20, 2021'
     },
     {
         title: 'Autonomic Detection and Correction of Artificial Intelligence Model Drift',

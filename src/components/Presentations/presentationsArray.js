@@ -1,7 +1,35 @@
 const presentationsArray = [
     {
+        event: 'NDNComm 2025',
+        location: 'Los Angeles, CA',
+        title: 'AI Inference Distributed Data Challenge',
+        date: 'Apr 17, 2025',
+        link: 'https://ndncomm2025.named-data.net/'
+    },
+    {
+        event: 'Intel Vision',
+        location: 'Las Vegas, NV',
+        title: 'Optimizing Edge AI with Open and Scalable Solutions',
+        date: 'Apr 1, 2025',
+        link: 'https://www.intel.com/content/www/us/en/events/on-event-series/vision.html'
+    },
+    {
+        event: 'Nvidia GTC 2025',
+        location: 'San Jose, CA',
+        title: 'Distributed Agentic Multimodal LLM Deployment',
+        date: 'Mar 17, 2025',
+        link: 'https://www.nvidia.com/gtc/'
+    },
+    {
+        event: 'IEEE Symposium on Edge Compute',
+        location: 'Rome, Italy',
+        title: 'Chair - Edge Networking and Connected Vehicles; Panelist - Unlocking Innovation at the Edge: Stories and Experiences',
+        date: 'Dec 4, 2024',
+        link: 'https://acm-ieee-sec.org/2024/'
+    },
+    {
         event: 'Inter-Academy International 6G Symposium',
-        location: 'New Delhi, IN',
+        location: 'New Delhi, India',
         title: 'Resiliency and Sustainability of 6G for Autonomous, Cloud/Edge and Security',
         date: 'Oct 16-18, 2024',
         link: 'https://www.indiamobilecongress.com/'
@@ -53,7 +81,7 @@ const presentationsArray = [
         event: 'NIST - National Cybersecurity Center of Excellence',
         location: 'Gaithersburg, MD',
         title: 'Edge Challenges with Data Management and Networking – Infrastructure and Services track; Present and Future of Network Security',
-        date: 'March 6, 2024',
+        date: 'Mar 6, 2024',
         link: 'https://www.nist.gov/news-events/events/ndncomm2024#:~:text=The%202024%20Named%20Data%20Networking,and%20calls%20for%20your%20contributions'
     },
     {
