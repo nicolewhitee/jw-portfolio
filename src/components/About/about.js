@@ -118,7 +118,7 @@ const About = () => {
                 <div className="experienceBar mx-0">
                     <img src={DigitalTwinConsort} alt="Digital Twin Consortium Logo" className="experienceBarImg" />
                     <div>
-                        <div className="h2">AI Factory and Edge Product Development Lead</div>
+                        <div className="h2">Steering Committee Board Member</div>
                         <div className="h3">Digital Twin Consortium &#9675; Aug 2024 - Present</div>
                         <p>
                             Member of the Digital Twin Consortium Steering Committee Board representing Dell Technologies.
