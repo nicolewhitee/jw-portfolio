@@ -1,5 +1,17 @@
 const patentsArray = [
     {
+        title: 'Method and System for Managing Resource Buffers in a Distributed Multi-Tiered Computing Environment',
+        patentId: '12327144',
+        dateIssued: 'Jun 10, 2025',
+        description: 'Techniques described herein relate to a method for manag­ing a distributed multi-tiered computing (DMC) environ­ment. The method includes obtaining, by an endpoint con­troller associated with a device, an initial resource buffer from a local controller; in response to obtaining the initial resource buffer: maintaining the initial resource buffer dur­ing task provision for the device; obtaining device metrics based on performance of tasks on the device; making a determination that a resource buffer change event is identi­fied; and in response to the determination: updating the initial resource buffer based on the resource buffer change event.'
+    },
+    {
+        title: 'Method and System for Performing Domain Level Scheduling of an Application in a Distributed Multi-Tiered Computing Environment',
+        patentId: '12293222',
+        dateIssued: 'May 6, 2025',
+        description: 'Techniques described herein relate to a method for manag­ing a distributed multi-tiered computing (DMC) environ­ment. The method includes identifying, by a local controller associated with an DMC domain, a domain scheduling event associated with a scheduling job; and in response to iden­tifying the domain scheduling event: identifying a candidate list of devices of the DMC domain to schedule tasks associated with the scheduling job based on a location and service level objectives; refining the candidate list of devices based on device configuration requirements, device man­agement requirements, and security requirements to gener­ate a final candidate list; scheduling tasks to devices using the final candidate list; generating scheduling assignments and provisioning command packages based on the scheduled tasks; providing the scheduling assignments and the provi­sion command packages to the devices; and updating a graph based on the scheduling assignments.'
+    },
+    {
         title: 'Method And System for Provisioning an Application in a Distributed Multi-Tiered Computing Environment Using Case Based Reasoning',
         patentId: '12265845',
         dateIssued: 'Apr 1, 2025',
@@ -284,16 +296,6 @@ const patentsArray = [
     {
         title: 'Method and System for Performing Device Level Management in a Distributed Multi-Tiered Computing Environment',
         patentId: '17/722058',
-        dateIssued: 'Apr 15, 2022'
-    },
-    {
-        title: 'Method and System for Managing Resource Buffers in a Distributed Multi-Tiered Computing Environment',
-        patentId: '17/722121',
-        dateIssued: 'Apr 15, 2022'
-    },
-    {
-        title: 'Method and System for Performing Domain Level Scheduling of an Application in a Distributed Multi-Tiered Computing Environment',
-        patentId: '17/721987',
         dateIssued: 'Apr 15, 2022'
     },
     {

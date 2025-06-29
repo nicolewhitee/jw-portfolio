@@ -107,11 +107,18 @@ const About = () => {
                         <div className="h2">AI Factory and Edge Product Development Lead</div>
                         <div className="h3">Dell Technologies &#9675; Aug 2024 - Present</div>
                         <p>
-                            Responsible for Dell AI Factory and Edge AI product strategy, technical direction,
-                            product requirements and development. Support major business development initiatives.
-                            Determine financial business case for AI Factory. Interface with key partners Nvidia,
-                            AMD, Intel, Foundation Model developers and AI software ecosystem. Serve as Product
-                            Owner for AI Factory in our agile development process.
+                            Lead the product development team for AI Factory and AI @ Edge.
+                            The AI Factory is a solution consisting of infrastructure (Computation, Storage and Network),
+                            AI Optimized Network Design, Control Software Stacks Cluster Operation and Multitenancy,
+                            Application for training/inference operations for AI pre-training, customization/tuning,
+                            optimization and inference. Edge AI solutions focus primarily on distributed training and inference.
+                            Direct the product strategy, engineering requirements/design and large customer engagements support.
+                            Establish roadmap for Generative AI and Edge AI.  Engage with key partners for infrastructure, ISV
+                            applications, operating software and technology level. Serve as product owner for Dell AI Factory
+                            product solution.  Redesigned AI Factory to match requirements of modern GenAI including inference
+                            sizing and performance.  Led with Nvidia the development of Enterprise Reference Architecture for
+                            AI implementation for enterprise use cases. First to complete this important Nvidia certification.
+                            24 Patents granted and 43 pending as of June 2025.
                         </p>
                     </div>
                 </div>
