@@ -1,5 +1,11 @@
 const patentsArray = [
     {
+        title: 'Method and System for Managing a Distributed Multi-Tiered Computing Environment Based on Load Predictions',
+        patentId: '12353923',
+        dateIssued: 'Jul 8, 2025',
+        description: 'Techniques described herein relate to a method for manag­ing a distributed multi-tiered computing (DMC) environ­ment. The method includes identifying, by a global control­ler, a load management prediction event; in response to identifying the load management prediction event: obtaining offline data from local controllers associated with a plurality of DMC domains of the DMC environment; generating load management predictions using the offline data; adjusting local controller scheduling policies based on the load man­agement predictions; adjusting global controller scheduling policies based on the load management predictions; making a first determination that the load management predictions require infrastructure adjustments; and in response to the first determination: initiating infrastructure capacity adjust­ment based on the load management predictions.'
+    },
+    {
         title: 'Method and System for Managing Resource Buffers in a Distributed Multi-Tiered Computing Environment',
         patentId: '12327144',
         dateIssued: 'Jun 10, 2025',
@@ -282,11 +288,6 @@ const patentsArray = [
         title: 'Predictive Anomaly Detection and Fault Isolation in Information Processing System Environment',
         patentId: '18/112256',
         dateIssued: 'Feb 21, 2023'
-    },
-    {
-        title: 'Method and System for Managing a Distributed Multi-Tiered Computing Environment',
-        patentId: '17/722147',
-        dateIssued: 'Apr 15, 2022'
     },
     {
         title: 'Method and System for Provisioning Applications in a Distributed Multi-Tiered Computing Environment',
