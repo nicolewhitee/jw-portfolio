@@ -1,5 +1,11 @@
 const patentsArray = [
     {
+        title: 'Enhanced Distributed Retrieval Augmented Generation System',
+        patentId: '12423332',
+        dateIssued: 'Sep 23, 2025',
+        description: 'The disclosure describes an enhanced distributed retrieval augmented generation (RAG) system. The enhanced distrib­uted RAG system provides RAG data to a local small foundation system to form prompts. The enhanced distrib­uted RAG system creates local query optimized represen­ tations (QORs) that are matched with queries sent to the local small foundation system to create prompts.  The enhanced distributed RAG system is located on one edge site and is connected to the global federated RAG module. The global federated RAG system is connected to other enhanced distributed RAG systems in other edge sites. QORs can be distributed across the enhanced distributed RAG systems and the global federated RAG module by promoting local QORs to global QORs and vice versa.'
+    },
+    {
         title: 'Method and System for Managing a Distributed Multi-Tiered Computing Environment Based on Load Predictions',
         patentId: '12353923',
         dateIssued: 'Jul 8, 2025',
@@ -177,11 +183,6 @@ const patentsArray = [
     {
         title: 'Contextual Active Dynamic Learning with a Digital Twin System',
         patentId: '18/963981',
-        dateIssued: 'Nov 29, 2024'
-    },
-    {
-        title: 'Symbolic Local Small Foundation Model Composable Reduction',
-        patentId: '18/963980',
         dateIssued: 'Nov 29, 2024'
     },
     {
