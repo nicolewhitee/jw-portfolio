@@ -10,6 +10,7 @@ import SoftwareArchitecture from '../../assets/sw-arch.png';
 import Dell from '../../assets/dell-logo.png';
 import ElefanteGroup from '../../assets/elefante-logo.jpg';
 import HP from '../../assets/hp-logo.png';
+import EYLogo from '../../assets/ey-logo.png';
 
 const About = () => {
     useEffect(() => {
@@ -102,10 +103,25 @@ const About = () => {
             <span className="headerTitle" aria-level="1" role="heading">Experience</span>
             <div className="experienceBars">
                 <div className="experienceBar mx-0">
+                    <img src={EYLogo} alt="EY Logo" className="experienceBarImg" />
+                    <div>
+                        <div className="h2">Chief Architect for Office of CTO and Managing Director</div>
+                        <div className="h3">Ernst and Young &#9675; Sep 2025 - Present</div>
+                        <p>
+                            Chief Architect for Office of CTO and Managing Director at Ernst and Young. Responsible for emerging technology
+                            platforms and products including product line management, architecture development and engineering. Emerging
+                            technology leadership including Knowledge Agent AI, Physical AI, Simulation, Advance Computation and others.
+                            Executive chair of the EY Enterprise Architecture Council for cross EY architectural standards development and
+                            alignment. Community leadership through technology assessments including funding recommendations, product
+                            line management and development process best practices. Support the EY FUEL innovation research team.
+                        </p>
+                    </div>
+                </div>
+                <div className="experienceBar mx-0">
                     <img src={Dell} alt="Dell Logo" className="experienceBarImg" />
                     <div>
                         <div className="h2">AI Factory and Edge Product Development Lead</div>
-                        <div className="h3">Dell Technologies &#9675; Aug 2024 - Present</div>
+                        <div className="h3">Dell Technologies &#9675; Aug 2024 - Sep 2025</div>
                         <p>
                             Lead the product development team for AI Factory and AI @ Edge. The AI
                             Factory is a solution consisting of infrastructure (compute, storage, and

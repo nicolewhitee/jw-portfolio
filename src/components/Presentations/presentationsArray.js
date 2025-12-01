@@ -1,5 +1,12 @@
 const presentationsArray = [
     {
+        event: 'ACM/IEEE Symposium on Edge Computing',
+        location: 'Washington, D.C.',
+        title: 'Physical AI is Still Very Hard To Do',
+        date: 'Dec 3, 2025',
+        link: 'https://acm-ieee-sec.org/2025/index.php'
+    },
+    {
         event: 'NDNComm 2025',
         location: 'Los Angeles, CA',
         title: 'AI Inference Distributed Data Challenge',

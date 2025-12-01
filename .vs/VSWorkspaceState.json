@@ -1,13 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
     "\\src",
+    "\\src\\assets",
     "\\src\\components",
     "\\src\\components\\About",
     "\\src\\components\\Intro",
     "\\src\\components\\Patents",
     "\\src\\components\\Presentations"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\src\\assets\\image.png",
   "PreviewInSolutionExplorer": false
 }

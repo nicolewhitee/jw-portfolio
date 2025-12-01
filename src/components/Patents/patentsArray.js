@@ -1,5 +1,11 @@
 const patentsArray = [
     {
+        title: 'Device Authentication for Onboarding',
+        patentId: '12452226',
+        dateIssued: 'Oct 21, 2025',
+        description: 'An apparatus comprises at least one processing device configured to receive a cryptographically attested digital document from an onboarding management system, wherein the cryptographically attested digital document comprises one or more credentials for at least one device requesting access to a secure communication channel to communicate with the onboarding management system.The at least one processing device is further configured to verify whether the cryptographically attested digital document is valid, and identify the one or more credentials in response to verifying that the cryptographically attested digital document is valid.The one or more credentials are transmitted to at least one authenticator in response to a request from the at least one authenticator to authenticate the at least one device.The at least one device is given the access to the secure communication channel responsive to verification of the one or more credentials by at least one authenticator.'
+    },
+    {
         title: 'Enhanced Distributed Retrieval Augmented Generation System',
         patentId: '12423332',
         dateIssued: 'Sep 23, 2025',
@@ -161,11 +167,6 @@ const patentsArray = [
         dateIssued: 'Nov 29, 2024'
     },
     {
-        title: 'Enhanced Distributed Retrieval Augmented Generation System',
-        patentId: '18/963965',
-        dateIssued: 'Nov 29, 2024'
-    },
-    {
         title: 'Knowledge Acquisition for Retrieval Augmented Generation System',
         patentId: '18/963975',
         dateIssued: 'Nov 29, 2024'
@@ -259,11 +260,6 @@ const patentsArray = [
         title: 'Edge Domain-Specific Accelerator Virtualization and Scheduling',
         patentId: '18/355351',
         dateIssued: 'Jul 19, 2023'
-    },
-    {
-        title: 'Device Authentication for Onboarding',
-        patentId: '18/352359',
-        dateIssued: 'Jul 14, 2023'
     },
     {
         title: 'Device Onboarding on Secure Networks',
