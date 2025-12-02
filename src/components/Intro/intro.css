@@ -9,11 +9,14 @@
 
 .bg {
     position: absolute;
-    top: 0;
+    bottom: 0;
     right: 0;
     z-index: -1;
+    width: 37vw;
+    height: auto;
     object-fit: contain;
-    height: 100vh;
+    object-position: bottom right;
+    opacity: 0.6;
 }
 
 .introContent {
@@ -32,7 +35,7 @@
 }
 
 .titleText {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
 }
 
@@ -44,7 +47,7 @@
 
 .line {
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     display: flex;
 }
 

@@ -3,13 +3,12 @@
     "",
     "\\public",
     "\\src",
-    "\\src\\assets",
     "\\src\\components",
     "\\src\\components\\About",
     "\\src\\components\\Intro",
     "\\src\\components\\Patents",
     "\\src\\components\\Presentations"
   ],
-  "SelectedNode": "\\src\\assets\\image.png",
+  "SelectedNode": "\\src\\components\\Intro\\intro.js",
   "PreviewInSolutionExplorer": false
 }

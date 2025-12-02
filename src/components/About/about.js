@@ -106,7 +106,7 @@ const About = () => {
                     <img src={EYLogo} alt="EY Logo" className="experienceBarImg" />
                     <div>
                         <div className="h2">Chief Architect for Office of CTO and Managing Director</div>
-                        <div className="h3">Ernst and Young &#9675; Sep 2025 - Present</div>
+                        <div className="h3">Ernst and Young &#9675; 2025 - Present</div>
                         <p>
                             Chief Architect for Office of CTO and Managing Director at Ernst and Young. Responsible for emerging technology
                             platforms and products including product line management, architecture development and engineering. Emerging
@@ -121,7 +121,7 @@ const About = () => {
                     <img src={Dell} alt="Dell Logo" className="experienceBarImg" />
                     <div>
                         <div className="h2">AI Factory and Edge Product Development Lead</div>
-                        <div className="h3">Dell Technologies &#9675; Aug 2024 - Sep 2025</div>
+                        <div className="h3">Dell Technologies &#9675; 2024 - 2025</div>
                         <p>
                             Lead the product development team for AI Factory and AI @ Edge. The AI
                             Factory is a solution consisting of infrastructure (compute, storage, and
@@ -159,7 +159,7 @@ const About = () => {
                     <img src={Dell} alt="Dell Logo" className="experienceBarImg" />
                     <div>
                         <div className="h2">Chief Technology Officer - Edge Product & Operations</div>
-                        <div className="h3">Dell Technologies &#9675; 2022 - Aug 2024</div>
+                        <div className="h3">Dell Technologies &#9675; 2022 - 2024</div>
                         <p>
                             Chief Technology Officer for Edge at Dell Technologies ISG CTO organization. Focus
                             on Edge platform design and application of Edge technology to current enterprise use
