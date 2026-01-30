@@ -11,6 +11,7 @@ import Dell from '../../assets/dell-logo.png';
 import ElefanteGroup from '../../assets/elefante-logo.jpg';
 import HP from '../../assets/hp-logo.png';
 import EYLogo from '../../assets/ey-logo.png';
+import UNTLogo from '../../assets/unt-logo.png';
 
 const About = () => {
     useEffect(() => {
@@ -118,6 +119,27 @@ const About = () => {
                     </div>
                 </div>
                 <div className="experienceBar mx-0">
+                    <img src={DigitalTwinConsort} alt="Digital Twin Consortium Logo" className="experienceBarImg" />
+                    <div>
+                        <div className="h2">Steering Committee Board Member</div>
+                        <div className="h3">Digital Twin Consortium &#9675; Aug 2024 - Present</div>
+                        <p>
+                            Member of the Digital Twin Consortium Steering Committee Board representing Dell Technologies.
+                        </p>
+                    </div>
+                </div>
+                <div className="experienceBar mx-0">
+                    <img src={UNTLogo} alt="UNT Logo" className="experienceBarImg" />
+                    <div>
+                        <div className="h2">Member of the Board of Advisors</div>
+                        <div className="h3">University of North Texas &#9675; Jan 2025 - Present</div>
+                        <p>
+                            Serve on the Advisory Board for Anuradha and Vikas Sinha Department of Data Science at the University of North
+                            Texas. Supporting curriculum development, public/private research, and student development.
+                        </p>
+                    </div>
+                </div>
+                <div className="experienceBar mx-0">
                     <img src={Dell} alt="Dell Logo" className="experienceBarImg" />
                     <div>
                         <div className="h2">AI Factory and Edge Product Development Lead</div>
@@ -142,16 +164,6 @@ const About = () => {
                             the first to complete this jointly defined certification.
 
                             25 patents granted, with 41 pending as of July 2025.
-                        </p>
-                    </div>
-                </div>
-                <div className="experienceBar mx-0">
-                    <img src={DigitalTwinConsort} alt="Digital Twin Consortium Logo" className="experienceBarImg" />
-                    <div>
-                        <div className="h2">Steering Committee Board Member</div>
-                        <div className="h3">Digital Twin Consortium &#9675; Aug 2024 - Present</div>
-                        <p>
-                            Member of the Digital Twin Consortium Steering Committee Board representing Dell Technologies.
                         </p>
                     </div>
                 </div>

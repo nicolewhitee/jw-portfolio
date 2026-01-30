@@ -1,5 +1,23 @@
 const patentsArray = [
     {
+        title: 'Method And System For Performing Anomaly Detection In A Distributed Multi‑Tiered Computing Environment',
+        patentId: '12493495',
+        dateIssued: 'Dec 9, 2025',
+        description: 'Techniques described herein obtaining, by a local controller associated with a DMC domain, service level objective (SLO) metrics; applying the SLO metrics to a predictive anomaly detection transformer to perform anomaly detection; making a first determination that an anomaly is detected; in response to the first determination: attempting basic remediation to resolve the anomaly; making a second determination that the basic remediation is unsuccessful; in response to the second determination: making a third determination that the anomaly is associated with a silent failure; and in response to the third determination: performing service impairment isolation to obtain a collection of services correlated to the anomaly; and performing root cause analysis to identify causal services.'
+    },
+    {
+        title: 'Unsupervised Data Characterization Utilizing Drift',
+        patentId: '12488282',
+        dateIssued: 'Dec 2, 2025',
+        description: 'Embodiments of systems and methods for unsupervised data characterization utilizing drift are described. In some embodiments, an Information Handling System (IHS) may include a processor and a memory coupled to the processor, the memory having program instructions stored thereon that, upon execution, cause the IHS to: provide input data to an Artificial Intelligence (AI) or Machine Learning (ML) drift detector, where the AI/ML drift detector is associated with a characteristic undetectable in the input data; and receive a drift confidence score from the AI/ML drift detector.'
+    },
+    {
+        title: 'Method And System For Processing A Manifest To Provision An Application In A Distributed Multi‑Tiered Computing Environment',
+        patentId: '12450088',
+        dateIssued: 'Oct 21, 2025',
+        description: 'Techniques described herein relate to a method for managing a distributed multi-tiered computing (DMC) environment.The method includes obtaining, by a global controller, an DMC environment management request from a user, and the DMC environment management request is associated with scheduling an application in the DMC environment; and in response to obtaining the request: providing acknowledgment that the request is received to the user; obtaining an order identifier and a manifest from the user; providing a correlation identifier associated with the request to the user; parsing the manifest to extract application deployment information; scheduling the application to target domains of the DMC based on the application deployment information; and providing the user with the correlation identifier, a success indicator, and application information.'
+    },
+    {
         title: 'Device Authentication for Onboarding',
         patentId: '12452226',
         dateIssued: 'Oct 21, 2025',
@@ -302,24 +320,9 @@ const patentsArray = [
         dateIssued: 'Apr 15, 2022'
     },
     {
-        title: 'Method and System for Processing a Manifest to Provision an Application in a Distributed Multi-Tiered Computing Environment',
-        patentId: '17/722071',
-        dateIssued: 'Apr 15, 2022'
-    },
-    {
         title: 'Method and System for Dynamic Selection of Policy Priorities for Provisioning an Application in a Distributed Multi-Tiered Computing Environment',
         patentId: '17/721964',
         dateIssued: 'Apr 15, 2022'
-    },
-    {
-        title: 'Method and System for Performing Anomaly Detection in a Distributed Multi-Tiered Computing Environment',
-        patentId: '17/722109',
-        dateIssued: 'Apr 15, 2022'
-    },
-    {
-        title: 'Unsupervised Data Characterization Utilizing Drift',
-        patentId: '17/508043',
-        dateIssued: 'Oct 22, 2021'
     },
     {
         title: 'Multi-Observer, Consensus Based Ground Truth',
