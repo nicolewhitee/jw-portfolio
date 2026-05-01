@@ -1,5 +1,17 @@
 const presentationsArray = [
     {
+        event: 'Engineering with Computers: An International Journal for Simulation-Based Engineering',
+        title: 'MPCM-Taguchi: An Efficient Method for Estimating Output Statistics in High-Dimensional Uncertain Systems',
+        link: 'https://link.springer.com/journal/366'
+    },
+    {
+        event: 'IEEE International Conference on Mobility: Operations, Services, and Technologies',
+        location: 'Detroit, MI',
+        title: 'It’s 2026 - Is Autonomous Driving Research Still Relevant?',
+        date: 'May 4-6, 2026',
+        link: 'https://ieeemobility.org/MOST2026/'
+    },
+    {
         event: 'ACM/IEEE Symposium on Edge Computing',
         location: 'Washington, D.C.',
         title: 'Physical AI is Still Very Hard To Do',

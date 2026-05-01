@@ -1,5 +1,17 @@
 const patentsArray = [
     {
+        title: 'Proactive Data Management in Distributed Systems',
+        patentId: '12585409',
+        dateIssued: 'Mar 24, 2026',
+        description: 'Methods and systems for providing computer implemented services are disclosed. To provide the services, control variables may be obtained and used to manage operation of the distributed system. The operation may be proactively managed by enforcing data placement standards throughout the system based, at least in part, on the control variables.The enforcement may be performed by identifying preferred placement locations based on the control variables, policies, and/ or other factors.'
+    },
+    {
+        title: 'Method and System for Performing Domain Level Scheduling of an Application in a Distributed Multi-Tiered Computing Environment Using Heuristic Scheduling',
+        patentId: '12585494',
+        dateIssued: 'Mar 24, 2026',
+        description: 'Techniques described herein relate to a method for managing a distributed multi-tiered computing (DMC) environment.The method includes normalizing, by a local controller associated with an DMC domain, task resource demand dimensions for each task associated with a scheduling job; summing the resource demand dimension for each task to generate resource demand vectors; classifying tasks based on priority; sorting tasks based on associated resource demand vectors; obtaining critical path, earliest start time, and latest start time associated with each task; sorting tasks based on critical path and earliest start time; and generating scheduling assignments based on the priority, capacity of devices in a final candidate list, resource demand vectors, earliest start time, and the critical path.'
+    },
+    {
         title: 'Method And System For Performing Anomaly Detection In A Distributed Multi‑Tiered Computing Environment',
         patentId: '12493495',
         dateIssued: 'Dec 9, 2025',
@@ -215,11 +227,6 @@ const patentsArray = [
         dateIssued: 'Sep 20, 2024'
     },
     {
-        title: 'Edge Data Autonomic Process Control System',
-        patentId: '18/890978',
-        dateIssued: 'Sep 20, 2024'
-    },
-    {
         title: 'Objective Optimization Reasoning Engine',
         patentId: '18/890981',
         dateIssued: 'Sep 20, 2024'
@@ -312,11 +319,6 @@ const patentsArray = [
     {
         title: 'Method and System for Performing Device Level Management in a Distributed Multi-Tiered Computing Environment',
         patentId: '17/722058',
-        dateIssued: 'Apr 15, 2022'
-    },
-    {
-        title: 'Method and System for Performing Domain Level Scheduling of an Application in a Distributed Multi-Tiered Computing Environment Using Heuristic Scheduling',
-        patentId: '17/722007',
         dateIssued: 'Apr 15, 2022'
     },
     {

@@ -4,9 +4,9 @@ import './footer.css';
 const Footer = () => {
     return (
         <footer className='footer'>
-            Copyright &#169; 2025 Jeff White. All Rights Received.
+            Copyright &#169; {new Date().getFullYear()} Jeff White. All Rights Reserved.
         </footer>
     );
-}
+};
 
 export default Footer

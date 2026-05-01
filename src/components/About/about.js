@@ -12,6 +12,7 @@ import ElefanteGroup from '../../assets/elefante-logo.jpg';
 import HP from '../../assets/hp-logo.png';
 import EYLogo from '../../assets/ey-logo.png';
 import UNTLogo from '../../assets/unt-logo.png';
+import StevensLogo from '../../assets/stevens-logo.png';
 
 const About = () => {
     useEffect(() => {
@@ -119,12 +120,13 @@ const About = () => {
                     </div>
                 </div>
                 <div className="experienceBar mx-0">
-                    <img src={DigitalTwinConsort} alt="Digital Twin Consortium Logo" className="experienceBarImg" />
+                    <img src={StevensLogo} alt="Stevens Institute of Technology Logo" className="experienceBarImg" />
                     <div>
-                        <div className="h2">Steering Committee Board Member</div>
-                        <div className="h3">Digital Twin Consortium &#9675; Aug 2024 - Present</div>
+                        <div className="h2">Member of the Board of Advisors</div>
+                        <div className="h3">Stevens Institute of Technology &#9675; Apr 2026 - Present</div>
                         <p>
-                            Member of the Digital Twin Consortium Steering Committee Board representing Dell Technologies.
+                            Serve on the Advisory Board for School of Systems Engineering. Supporting curriculum development, public/private research,
+                            and student development.
                         </p>
                     </div>
                 </div>
@@ -136,6 +138,16 @@ const About = () => {
                         <p>
                             Serve on the Advisory Board for Anuradha and Vikas Sinha Department of Data Science at the University of North
                             Texas. Supporting curriculum development, public/private research, and student development.
+                        </p>
+                    </div>
+                </div>
+                <div className="experienceBar mx-0">
+                    <img src={DigitalTwinConsort} alt="Digital Twin Consortium Logo" className="experienceBarImg" />
+                    <div>
+                        <div className="h2">Steering Committee Board Member</div>
+                        <div className="h3">Digital Twin Consortium &#9675; Aug 2024 - Present</div>
+                        <p>
+                            Member of the Digital Twin Consortium Steering Committee Board representing Dell Technologies.
                         </p>
                     </div>
                 </div>
