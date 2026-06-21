@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import './presentations.css';
 import presentationsArray from './presentationsArray.js';
-
 const presentationsPerRow = 6;
-
 const Presentations = () => {
     const [next, setNext] = useState(presentationsPerRow);
-
     const handleMorePresentations = () => {
         setNext(next + presentationsPerRow);
     }
-
+    const handleLessPresentations = () => {
+        setNext(presentationsPerRow);
+        document.getElementById('presentations')?.scrollIntoView({ behavior: 'smooth' });
+    }
     return (
         <>
             <section id='presentations'>
@@ -38,13 +38,16 @@ const Presentations = () => {
                         })}
                     </div>
                 </div>
-
-                {next < presentationsArray?.length && (
-                    <button className="seeMoreBtn" onClick={handleMorePresentations}>See More</button>
-                )}
+                <div className="presentationBtnGroup">
+                    {next < presentationsArray?.length && (
+                        <button className="seeMoreBtn" onClick={handleMorePresentations}>See More</button>
+                    )}
+                    {next > presentationsPerRow && (
+                        <button className="seeLessBtn" onClick={handleLessPresentations}>See Less</button>
+                    )}
+                </div>
             </section>
         </>
     );
 };
-
 export default Presentations;

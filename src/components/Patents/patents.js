@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
 import './patents.css';
 import patentsArray from './patentsArray.js';
-
 const patentPerRow = 2;
-
 const Patents = () => {
     const [next, setNext] = useState(patentPerRow);
-
     const handleMorePatents = () => {
         setNext(next + patentPerRow);
     }
-
+    const handleLessPatents = () => {
+        setNext(patentPerRow);
+        document.getElementById('patents')?.scrollIntoView({ behavior: 'smooth' });
+    }
     return (
         <>
             <section id='patents'>
                 <div className="headerTitle" aria-level="1" role="heading">Patents</div>
-                <div className="h5 mb-4">66 patents applied, 32 patents granted to date</div>
+                <div className="h5 mb-4">66 patents applied, 37 patents granted to date</div>
                 <div className="container">
                     <div className="row display-flex g-5">
                         {patentsArray.slice(0, next).map((patent, index) => {
@@ -23,7 +23,7 @@ const Patents = () => {
                                 <div className="col-12" key={index}>
                                     <div className="patentCardLightBlue">
                                         <div className="h5">{patent.title}</div>
-                                        <hr/>
+                                        <hr />
                                         <div className="h6">{patent.patentId} &#9675; {patent.dateIssued}</div>
                                         <p className="patentDescr">{patent.description}</p>
                                     </div>
@@ -31,14 +31,17 @@ const Patents = () => {
                             );
                         })}
                     </div>
-
-                    {next < patentsArray?.length && (
-                        <button className="seeMoreBtn" onClick={handleMorePatents}>See More</button>
-                    )}
+                    <div className="patentBtnGroup">
+                        {next < patentsArray?.length && (
+                            <button className="seeMoreBtn" onClick={handleMorePatents}>See More</button>
+                        )}
+                        {next > patentPerRow && (
+                            <button className="seeLessBtn" onClick={handleLessPatents}>See Less</button>
+                        )}
+                    </div>
                 </div>
             </section>
         </>
     );
 };
-
 export default Patents;

@@ -1,5 +1,35 @@
 const patentsArray = [
     {
+        title: 'Systems and Methods for Edge Resource Demand Load Scheduling',
+        patentId: '12645501',
+        dateIssued: 'Jun 2, 2026',
+        description: 'Managing the resource demand load for edge systems is significantly more complex than for other systems, such as cloud environments. Edge resource demand load scheduling systems and methods are disclosed that can ensure that edge systems operate smoothly and efficiently while balancing multiple scheduling objectives. Scheduling techniques disclosed herein may utilize heuristic rules for candidate edge system selection (e.g., utilizing ARMA/ARIMA averages and/or service level objectives) and modified best fit decreasing (mBFD) assignment/allocation techniques.'
+    },
+    {
+        title: 'Systems and Methods for Edge Resource Demand and Load Estimation',
+        patentId: '12632318',
+        dateIssued: 'May 19, 2026',
+        description: 'Managing the resource demand load for edge systems is significantly more complex than for other systems, such as cloud environments. Embodiments herein provide edge resource demand load estimation systems and methods that inform scheduling and associated edge orchestration to ensurethat edge system resource capacity is appropriately utilized. Efficient utilization allows an increased number of applications to be deployed at a reduced level of reserved resources. Also presented are embodiments of assurance mechanisms for monitoring edge resource demand load characterizations. In one or more embodiments, when an estimate or estimates are deemed to not be valid (e.g., having experienced stationary drift), updated estimates may be obtained.'
+    },
+    {
+        title: 'Systems and Methods for Hypergraph Edge Resource Demand Load Representation',
+        patentId: '12625738',
+        dateIssued: 'May 12, 2026',
+        description: 'Managing the resource demand load for edge systems is significantly more complex than for other systems, such as cloud environments. A time period in which an application or task is operating based on initial demand resource load values that are provided by a customer may be inaccurate, which may expose sub-standard execution. Embodiments herein seek to significantly mitigate the potential of sub-standard execution. Embodiments collect a repository of resource demand load usage data over a time period that can be used to accurately determine the statistical moments of uncertain resource demand load. In one or more embodiments, a repository of hypervector and/or hyperspace representations may be generated and used to help with resource demand load estimation.'
+    },
+    {
+        title: 'Systems and Methods for Hypergraph Edge Resource Demand Knowledge Management',
+        patentId: '12625731',
+        dateIssued: 'May 12, 2026',
+        description: 'Managing the resource demand load for edge systems is significantly more complex than for other systems, such as cloud environments. A time period in which an application or task is operating based on initial demand resource load values that are provided by a customer may be inaccurate, which may expose sub-standard execution. Embodiments herein seek to significantly mitigate the potential of sub-standard execution. Embodiments collect a repository of resource demand load usage data over a time period that can be used to accurately determine the statistical moments of uncertain resource demand load. In one or more embodiments, a repository of hypervector and/or hyperspace representations may be generated and used to help with resource demand load estimation.'
+    },
+    {
+        title: 'Method and System for Dynamic Selection of Policy Priorities for Provisioning an Application in a Distributed Multi-Tiered Computing Environment',
+        patentId: '12613738',
+        dateIssued: 'Apr 28, 2026',
+        description: 'Techniques described herein relate to a method for managing a distributed multi-tiered computing (DMC) environment. The method includes obtaining, by a global controller, a request from a user, and the request is associated with scheduling an application in the DMC environment; and in response to obtaining the request: identifying application tasks associated with the request; obtaining application deployment information based on a manifest included in the request; identifying target domains for the application tasks based on the application deployment information; obtaining workload information associated with the target domains; selecting priorities for scheduling policies for the target domains based on the application deployment information and the workload information; generating scheduling packages based on the scheduling policy priorities for each target domain; and providing the scheduling packages to local controllers of the target domains, wherein the local controllers schedule the application tasks using the scheduling packages.'
+    },
+    {
         title: 'Proactive Data Management in Distributed Systems',
         patentId: '12585409',
         dateIssued: 'Mar 24, 2026',
@@ -252,28 +282,8 @@ const patentsArray = [
         dateIssued: 'Sep 20, 2024'
     },
     {
-        title: 'Systems and Methods for Hypergraph Edge Resource Demand Load Representation',
-        patentId: '18/366507',
-        dateIssued: 'Aug 7, 2023'
-    },
-    {
-        title: 'Systems and Methods for Hypergraph Edge Resource Demand Knowledge Management',
-        patentId: '18/366520',
-        dateIssued: 'Aug 7, 2023'
-    },
-    {
         title: 'Systems and Methods for Edge System Resource Capacity Dynamic Policy Planning Framework',
         patentId: '18/366490',
-        dateIssued: 'Aug 7, 2023'
-    },
-    {
-        title: 'Systems and Methods for Edge Resource Demand Load Estimation',
-        patentId: '18/366549',
-        dateIssued: 'Aug 7, 2023'
-    },
-    {
-        title: 'Systems and Methods for Edge Resource Demand Load Scheduling',
-        patentId: '18/366555',
         dateIssued: 'Aug 7, 2023'
     },
     {
@@ -319,11 +329,6 @@ const patentsArray = [
     {
         title: 'Method and System for Performing Device Level Management in a Distributed Multi-Tiered Computing Environment',
         patentId: '17/722058',
-        dateIssued: 'Apr 15, 2022'
-    },
-    {
-        title: 'Method and System for Dynamic Selection of Policy Priorities for Provisioning an Application in a Distributed Multi-Tiered Computing Environment',
-        patentId: '17/721964',
         dateIssued: 'Apr 15, 2022'
     },
     {

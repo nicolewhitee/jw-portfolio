@@ -38,7 +38,35 @@
     color: white !important;
 }
 
-.presentationBtn:hover {
-    background: #4a81cf;
-    color: black;
+    .presentationBtn:hover {
+        background: #4a81cf;
+        color: black;
+    }
+
+.presentationBtnGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 3rem 0;
 }
+
+.seeMoreBtn,
+.seeLessBtn {
+    margin: 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background: white;
+    font-size: 1rem;
+}
+
+    .seeMoreBtn:visited,
+    .seeLessBtn:visited {
+        color: black;
+    }
+
+    .seeMoreBtn:hover,
+    .seeLessBtn:hover {
+        background: #4a81cf;
+    }

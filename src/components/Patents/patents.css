@@ -15,8 +15,17 @@
     text-align: left;
 }
 
-.seeMoreBtn {
+.patentBtnGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
     margin: 3rem 0;
+}
+
+.seeMoreBtn,
+.seeLessBtn {
+    margin: 0;
     padding: 0.5rem 2.5rem;
     border: none;
     border-radius: 2rem;
@@ -24,13 +33,15 @@
     font-size: 1rem;
 }
 
-.seeMoreBtn:visited {
-    color: black;
-}
+    .seeMoreBtn:visited,
+    .seeLessBtn:visited {
+        color: black;
+    }
 
-.seeMoreBtn:hover {
-    background: #4a81cf;
-}
+    .seeMoreBtn:hover,
+    .seeLessBtn:hover {
+        background: #4a81cf;
+    }
 
 .patentCardLightBlue {
     padding: 2em !important;
@@ -45,6 +56,6 @@
     flex-wrap: wrap;
 }
 
-.row.display-flex > [class*='col-'] {
-    flex-grow: 1;
-}
+    .row.display-flex > [class*='col-'] {
+        flex-grow: 1;
+    }
