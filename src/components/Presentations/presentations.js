@@ -14,7 +14,7 @@ const Presentations = () => {
     return (
         <>
             <section id='presentations'>
-                <div className="headerTitle" aria-level="1" role="heading">Publications and Presentations</div>
+                <div className="headerTitle" aria-level="1" role="heading">Invited Presentations and Peer Review Publications</div>
                 <div className="container">
                     <div className="row d-flex g-5">
                         {presentationsArray.slice(0, next).map((presentation, index) => {

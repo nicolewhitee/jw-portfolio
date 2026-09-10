@@ -1,5 +1,41 @@
 const patentsArray = [
     {
+        title: 'Systems and Methods for Edge System Resource Capacity Performance Prediction',
+        patentId: '12710992',
+        dateIssued: 'Aug 18, 2026',
+        description: 'Managing the resource demand load for edge systems is significantly more complex than for other systems, such as cloud environments. Unlike cloud systems and other frame-works that are able to use closed-form solutions based on Poisson processes or other tractable Gaussian-based probability distributions, edge systems present complex wave-forms, pareto/alpha-stable distributions, and long-range dependence. Based on elaborately designed embodiments that recognize the complexities of edge data, one can esti-mate scaling and multi-fractal dimensionality to determine predictive models.'
+    },
+    {
+        title: 'Systems and Methods for Edge System Resource Capacity Dynamic Policy Planning Framework',
+        patentId: '12706812',
+        dateIssued: 'Aug 11, 2026',
+        description: 'Managing the resource demand load for edge systems is significantly more complex than for other systems, such as cloud environments. Unlike cloud systems and other frame-works that are able to use closed-form solutions based on Poisson processes or other tractable Gaussian-based probability distributions, edge systems present complex wave-forms, pareto/alpha-stable distributions, and long-range dependence. Based on elaborately designed embodiments that recognize the complexities of edge data, one can esti-mate scaling and multi-fractal dimensionality to determine predictive models.'
+    },
+    {
+        title: 'Edge Domain-Specific Accelerator Virtualization and Scheduling',
+        patentId: '12705103',
+        dateIssued: 'Aug 11, 2026',
+        description: 'Presented herein are embodiments to implement a temporal queueing system with class-based fair queuing and dynamic resource allocation based on a novel look-ahead capability to manage various models and workloads for utilization/ efficiency improvements. Embodiments may be imple-mented to allocate accelerator resources based on platform-defined timeslots, and therefore significantly increase the ability of workloads to access hardware accelerator resources. Training and inference may be supported with flexible preemption and the ability to support run-to-comple-tion for training tasks while still supporting non-run-to-completion for inference tasks. Embodiments may be imple-mented by an edge software operation platform through virtual accelerators to allow emulation of different types of hardware accelerators and to map to the hardware accelera-tors with hardware-specific procedures managed by an edge orchestrator and an edge endpoint. Accordingly, embodi-ments of the present disclosure reduce the requirements for the workload to manage platform capacity and hardware.'
+    },
+    {
+        title: 'Method and System for Performing Device Level Management in a Distributed Multi-Tiered Computing Environment',
+        patentId: '12681759',
+        dateIssued: 'Jul 14, 2026',
+        description: 'Techniques described herein relate to a method for managing a distributed multi-tiered computing (DMC) environment. The method includes obtaining, by an endpoint controller associated with a device, scheduling assignments and a provisioning command package from a local controller; in response to obtaining the scheduling assignments and the provisioning command package: making a determination that the device is available for the scheduling assignments; in response to the determination: modifying configuration of the device based on the scheduling assignments and generating configuration information; executing the provisioning commands included in the provisioning command package to instantiate tasks included in the scheduling assignments; instantiating monitoring services to collect monitoring information associated with the device and the tasks; and sending the monitoring information and configuration information to the local controller.'
+    },
+    {
+        title: 'Systems and Methods for Continued Edge Resource Demand Load Estimation',
+        patentId: '12675333',
+        dateIssued: 'Jul 7, 2026',
+        description: 'Managing the resource demand load for edge systems is significantly more complex than for other systems, such as cloud environments. Embodiments herein provide edge resource demand load estimation systems and methods that inform scheduling and associated edge orchestration to ensure that edge system resource capacity is appropriately utilized. Efficient utilization allows an increased number of applications to be deployed at a reduced level of reserved resources. Also presented are embodiments of assurance mechanisms for monitoring edge resource demand load characterizations. In one or more embodiments, when an estimate or estimates are deemed to not be valid (e.g., having experienced stationary drift), updated estimates may be obtained.'
+    },
+    {
+        title: 'Model Prediction Confidence Utilizing Drift',
+        patentId: '12670232',
+        dateIssued: 'Jun 30, 2026',
+        description: 'Embodiments of systems and methods for model prediction confidence utilizing drift are described. In some embodiments, an Information Handling System (IHS) may include a processor and a memory coupled to the processor, the memory having program instructions stored thereon that, upon execution, cause the IHS to: identify drift with respect to an Artificial Intelligence (AI) or Machine Learning (ML) model; and adjust a confidence score of a prediction or inference produced by the AI/ML model based, at least in part, upon the drift.'
+    },
+    {
         title: 'Systems and Methods for Edge Resource Demand Load Scheduling',
         patentId: '12645501',
         dateIssued: 'Jun 2, 2026',
@@ -282,21 +318,6 @@ const patentsArray = [
         dateIssued: 'Sep 20, 2024'
     },
     {
-        title: 'Systems and Methods for Edge System Resource Capacity Dynamic Policy Planning Framework',
-        patentId: '18/366490',
-        dateIssued: 'Aug 7, 2023'
-    },
-    {
-        title: 'Systems and Methods for Continued Edge Resource Demand Load Estimation',
-        patentId: '18/366538',
-        dateIssued: 'Aug 7, 2023'
-    },
-    {
-        title: 'Edge Domain-Specific Accelerator Virtualization and Scheduling',
-        patentId: '18/355351',
-        dateIssued: 'Jul 19, 2023'
-    },
-    {
         title: 'Device Onboarding on Secure Networks',
         patentId: '18/352007',
         dateIssued: 'Jul 13, 2023'
@@ -327,18 +348,8 @@ const patentsArray = [
         dateIssued: 'Apr 15, 2022'
     },
     {
-        title: 'Method and System for Performing Device Level Management in a Distributed Multi-Tiered Computing Environment',
-        patentId: '17/722058',
-        dateIssued: 'Apr 15, 2022'
-    },
-    {
         title: 'Multi-Observer, Consensus Based Ground Truth',
         patentId: '17/508079',
-        dateIssued: 'Oct 22, 2021'
-    },
-    {
-        title: 'Model Prediction Confidence Utilizing Drift',
-        patentId: '17/508114',
         dateIssued: 'Oct 22, 2021'
     },
     {

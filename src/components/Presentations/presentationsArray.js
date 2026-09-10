@@ -1,5 +1,12 @@
 const presentationsArray = [
     {
+        event: 'ACM/IEEE Symposium on Edge Computing',
+        location: 'Santa Clara, CA',
+        title: 'Solving the Generative AI Trust Challenge for Physical AI (jointly with Dr. Alicja Kwasniewska)',
+        date: 'Oct 13-16, 2026',
+        link: 'https://acm-ieee-sec.org/2026/index.php'
+    },
+    {
         event: 'Engineering with Computers: An International Journal for Simulation-Based Engineering',
         title: 'MPCM-Taguchi: An Efficient Method for Estimating Output Statistics in High-Dimensional Uncertain Systems',
         link: 'https://link.springer.com/journal/366'
