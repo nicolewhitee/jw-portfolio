@@ -8,7 +8,9 @@ const AdminLogin = () => {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const [submitting, setSubmitting] = useState(false);
-    const { login, currentUser } = useAuth();
+    const [resetStatus, setResetStatus] = useState(''); // shown after "Forgot password?" is used
+    const [resetSubmitting, setResetSubmitting] = useState(false);
+    const { login, resetPassword, currentUser } = useAuth();
     const navigate = useNavigate();
 
     // Already logged in - go straight to the dashboard.
@@ -19,6 +21,7 @@ const AdminLogin = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setError('');
+        setResetStatus('');
         setSubmitting(true);
         try {
             await login(email, password);
@@ -27,6 +30,25 @@ const AdminLogin = () => {
             setError('Incorrect email or password.');
         } finally {
             setSubmitting(false);
+        }
+    };
+
+    const handleForgotPassword = async () => {
+        setError('');
+        if (!email.trim()) {
+            setResetStatus('Enter your email above first, then click "Forgot password?" again.');
+            return;
+        }
+        setResetSubmitting(true);
+        try {
+            await resetPassword(email.trim());
+        } catch (err) {
+            // Intentionally ignored: whether or not this succeeds, show the
+            // same message below so the login page never reveals whether a
+            // given email has an account.
+        } finally {
+            setResetSubmitting(false);
+            setResetStatus('If that email has an account, a password reset link is on its way. Check your inbox (and spam folder).');
         }
     };
 
@@ -57,6 +79,15 @@ const AdminLogin = () => {
                 <button type="submit" disabled={submitting}>
                     {submitting ? 'Signing in...' : 'Sign In'}
                 </button>
+                <button
+                    type="button"
+                    className="adminForgotPasswordLink"
+                    onClick={handleForgotPassword}
+                    disabled={resetSubmitting}
+                >
+                    Forgot password?
+                </button>
+                {resetStatus && <p className="adminListMeta">{resetStatus}</p>}
             </form>
         </div>
     );

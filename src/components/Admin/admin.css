@@ -190,6 +190,27 @@
         cursor: default;
     }
 
+.adminLoginForm button[type='submit'] {
+    margin-top: 20px;
+}
+
+.adminForgotPasswordLink {
+    background: none !important;
+    border: none;
+    color: #2c3e50 !important;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.85rem;
+    margin-top: 14px;
+    padding: 0;
+    align-self: flex-start;
+}
+
+    .adminForgotPasswordLink:disabled {
+        opacity: 0.6;
+        cursor: default;
+    }
+
 .adminError {
     background: #fdecea;
     color: #b53030;
