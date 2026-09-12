@@ -13,9 +13,6 @@ const AdminLogin = () => {
     const { login, resetPassword, currentUser } = useAuth();
     const navigate = useNavigate();
 
-    // TEMPORARY DEBUG LOG - remove once the reset-email issue is resolved.
-    console.log('useAuth() returned:', { login: typeof login, resetPassword: typeof resetPassword, currentUser: typeof currentUser });
-
     // Already logged in - go straight to the dashboard.
     if (currentUser) {
         return <Navigate to="/admin" replace />;
