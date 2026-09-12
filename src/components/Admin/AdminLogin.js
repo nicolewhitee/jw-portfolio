@@ -43,9 +43,10 @@ const AdminLogin = () => {
         try {
             await resetPassword(email.trim());
         } catch (err) {
-            // Intentionally ignored: whether or not this succeeds, show the
-            // same message below so the login page never reveals whether a
-            // given email has an account.
+            // Logged for debugging only - the user-facing message stays the
+            // same either way so the login page can't be used to check
+            // which emails have accounts.
+            console.error('Password reset error:', err);
         } finally {
             setResetSubmitting(false);
             setResetStatus('If that email has an account, a password reset link is on its way. Check your inbox (and spam folder).');
