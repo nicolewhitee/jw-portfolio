@@ -1,0 +1,283 @@
+.adminLoginPage {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4f5f7;
+    padding: 20px;
+    color: #1a1a1a;
+}
+
+.adminLoginForm {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .adminLoginForm h1 {
+        margin: 0 0 6px;
+        font-size: 1.5rem;
+    }
+
+.adminLoginSubtitle {
+    margin: 0 0 20px;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.adminPage {
+    min-height: 100vh;
+    background: #f4f5f7;
+    padding: 24px;
+    color: #1a1a1a;
+}
+
+.adminHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+    .adminHeader h1 {
+        margin: 0;
+        font-size: 1.6rem;
+    }
+
+.adminSignedInAs {
+    margin: 4px 0 0;
+    color: #666;
+    font-size: 0.85rem;
+}
+
+.adminHeaderActions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.adminViewSiteLink {
+    font-size: 0.9rem;
+    text-decoration: underline;
+    color: #1a1a1a !important;
+}
+
+.adminLogoutBtn,
+.adminCancelBtn,
+.adminDeleteBtn {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px 14px;
+    cursor: pointer;
+    color: #1a1a1a !important;
+}
+
+.adminDeleteBtn {
+    border-color: #e0a0a0;
+    color: #b53030 !important;
+}
+
+.adminTabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.adminTab,
+.adminTabActive {
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #1a1a1a !important;
+}
+
+.adminTabActive {
+    background: #2c3e50;
+    color: #fff !important;
+    border-color: #2c3e50;
+}
+
+.adminContent {
+    display: grid;
+    grid-template-columns: minmax(320px, 420px) 1fr;
+    gap: 24px;
+    align-items: start;
+}
+
+@media (max-width: 900px) {
+    .adminContent {
+        grid-template-columns: 1fr;
+    }
+}
+
+.adminForm,
+.adminSection > .adminList {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.adminSection {
+    display: contents;
+}
+
+.adminForm h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.adminForm label,
+.adminLoginForm label {
+    display: block;
+    margin: 14px 0 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.adminForm input,
+.adminForm select,
+.adminForm textarea,
+.adminLoginForm input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+    font-family: inherit;
+}
+
+.adminFormRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.adminFormActions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.adminForm button[type='submit'],
+.adminLoginForm button[type='submit'] {
+    background: #2c3e50;
+    color: #fff !important;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 18px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+    .adminForm button[type='submit']:disabled,
+    .adminLoginForm button[type='submit']:disabled {
+        opacity: 0.6;
+        cursor: default;
+    }
+
+.adminLoginForm button[type='submit'] {
+    margin-top: 20px;
+}
+
+.adminForgotPasswordLink {
+    background: none !important;
+    border: none;
+    color: #2c3e50 !important;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.85rem;
+    margin-top: 14px;
+    padding: 0;
+    align-self: flex-start;
+}
+
+    .adminForgotPasswordLink:disabled {
+        opacity: 0.6;
+        cursor: default;
+    }
+
+.adminError {
+    background: #fdecea;
+    color: #b53030;
+    border: 1px solid #f3c2c2;
+    border-radius: 6px;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    font-size: 0.85rem;
+}
+
+.adminList h3 {
+    font-size: 0.95rem;
+    margin: 18px 0 10px;
+    color: #444;
+}
+
+    .adminList h3:first-child {
+        margin-top: 0;
+    }
+
+.adminListItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.adminListMeta {
+    color: #777;
+    font-size: 0.82rem;
+    margin-top: 2px;
+}
+
+.adminListActions {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+    .adminListActions button {
+        background: #fff;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        padding: 6px 12px;
+        cursor: pointer;
+        font-size: 0.82rem;
+        color: #1a1a1a !important;
+    }
+
+.adminListItem strong {
+    color: #1a1a1a;
+}
+
+.adminHeader h1,
+.adminForm h2,
+.adminList h3,
+.adminLoginForm h1 {
+    color: #1a1a1a;
+}
+
+.adminLoading {
+    padding: 40px;
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+}
