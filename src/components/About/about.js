@@ -11,6 +11,7 @@ import Dell from '../../assets/dell-logo.png';
 import ElefanteGroup from '../../assets/elefante-logo.jpg';
 import HP from '../../assets/hp-logo.png';
 import EYLogo from '../../assets/ey-logo.png';
+import UDLogo from '../../assets/university-of-delaware-logo.png';
 import UNTLogo from '../../assets/unt-logo.png';
 import StevensLogo from '../../assets/stevens-logo.png';
 
@@ -120,6 +121,27 @@ const About = () => {
                     </div>
                 </div>
                 <div className="experienceBar mx-0">
+                    <img src={UNTLogo} alt="University of North Texas Logo" className="experienceBarImg" />
+                    <div>
+                        <div className="h2">Founding Member of the Board of Advisors</div>
+                        <div className="h3">University of Delaware &#9675; Sep 2026 - Present</div>
+                        <p>
+                            Founding Member of the Advisory Board for the University of North Texas AI Institute.
+                        </p>
+                    </div>
+                </div>
+                <div className="experienceBar mx-0">
+                    <img src={UDLogo} alt="University of Delaware Logo" className="experienceBarImg" />
+                    <div>
+                        <div className="h2">Member of the Board of Advisors</div>
+                        <div className="h3">University of Delaware &#9675; May 2026 - Present</div>
+                        <p>
+                            Serve on the Advisory Board for School of Computer and Information Science. Supporting curriculum development, public/private research,
+                            and student development.
+                        </p>
+                    </div>
+                </div>
+                <div className="experienceBar mx-0">
                     <img src={StevensLogo} alt="Stevens Institute of Technology Logo" className="experienceBarImg" />
                     <div>
                         <div className="h2">Member of the Board of Advisors</div>
@@ -145,7 +167,7 @@ const About = () => {
                     <img src={DigitalTwinConsort} alt="Digital Twin Consortium Logo" className="experienceBarImg" />
                     <div>
                         <div className="h2">Steering Committee Board Member</div>
-                        <div className="h3">Digital Twin Consortium &#9675; Aug 2024 - Present</div>
+                        <div className="h3">Digital Twin Consortium &#9675; Aug 2024 - Aug 2026</div>
                         <p>
                             Member of the Digital Twin Consortium Steering Committee Board representing Dell Technologies.
                         </p>
