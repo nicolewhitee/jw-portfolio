@@ -123,10 +123,10 @@ const About = () => {
                 <div className="experienceBar mx-0">
                     <img src={UNTLogo} alt="University of North Texas Logo" className="experienceBarImg" />
                     <div>
-                        <div className="h2">Founding Member of the Board of Advisors</div>
-                        <div className="h3">University of Delaware &#9675; Sep 2026 - Present</div>
+                        <div className="h2">Founding Member of the Board of Advisors for UNT Applied AI and Data Science Institute</div>
+                        <div className="h3">University of North Texas &#9675; Sep 2026 - Present</div>
                         <p>
-                            Founding Member of the Advisory Board for the University of North Texas AI Institute.
+                            Founding Member of the Board of Advisors of the Applied Artifical Intelligence & Data Science Institute
                         </p>
                     </div>
                 </div>
